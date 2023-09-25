@@ -1,0 +1,14 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    border-radius: 100;
+    border-color: aliceblue;
+    padding: 250px;
+}
