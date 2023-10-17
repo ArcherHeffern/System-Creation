@@ -11,7 +11,7 @@ Git is all about creating checkpoints in your code. This enables you to go back 
 ![checkpoints](main.png)
 (Explain main branch for prod and checkpoints)
 
-Q: What if you accidentally just introduced a new bug into your codebase?
+Q: What if you accidentally just introduced a new bug into your codebase?  
 A: Go back to previous checkpoints and see what changed!  
 
 How do we do this?
