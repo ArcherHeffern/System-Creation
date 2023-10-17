@@ -12,7 +12,7 @@ Git is all about creating checkpoints in your code. This enables you to go back 
 (Explain main branch for prod and checkpoints)
 
 Q: What if you accidentally just introduced a new bug into your codebase?
-A: Go back to previous checkpoints and see what changed!
+A: Go back to previous checkpoints and see what changed! 
 
 How do we do this?
 
@@ -28,8 +28,8 @@ How do we create these checkpoints
 2. Commit
 3. (Optional) Push (put the .git file online)
 
-*Do exercise 1.1 with everyone*
-*Do exercise 1.2 with everyone*
+*Do exercise 1.1 with everyone* 
+*Do exercise 1.2 with everyone* 
 (Show git history, draw out history during)
 
 ### Branching and Merging
@@ -57,7 +57,7 @@ Git will show you where it does not know how to merge due to ambiguity. You can 
 
 *Do exercise 4 with everyone*
 
-*Do exercise 5 individual*
+*Challenge: Do exercise 5 individually*
 
 ### Review:
 
@@ -90,13 +90,13 @@ git clone <url>
 
 ### Pulling and pushing
 
-Q: How do you get the up to date version of the project?
-Q: How do you upload your changes to github?
+Q: How do you get the up to date version of the project? 
+Q: How do you upload your changes to github? 
 Q: What happens if you try to upload an outdated version of the project to github? 
 
-A: Pull!
-A: Push!
-A: Pull, then push!
+A: Pull! 
+A: Push! 
+A: Pull, then push! 
 
 #### Resolving merge conflicts when pulling
 
