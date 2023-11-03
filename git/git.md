@@ -8,7 +8,7 @@ TODO:
 
 Git is all about creating checkpoints in your code. This enables you to go back into history, and makes its easier to work with other people.
 
-![checkpoints](main.png)
+![checkpoints](static/main.png)
 (Explain main branch for prod and checkpoints)
 
 Q: What if you accidentally just introduced a new bug into your codebase?  
@@ -37,13 +37,12 @@ How do we create these checkpoints
 Main is for showing our clients and for production, but what if we want to try out features, or develop without making main buggy? This is why we create branches.
 
 We create branches to work on some feature without affecting main 
-![branch](branch.png)
+![branch](static/branch.png)
 
 *Do exercise 2 with everyone*
 
 We will eventually *merge* them back in
-
-![merge](merge.png)
+![merge](static/merge.png)
 
 Git is pretty good at knowing how to merge, but sometimes it requires manual intervention
 
