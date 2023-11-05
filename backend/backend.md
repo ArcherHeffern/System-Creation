@@ -53,7 +53,7 @@ Notes:
 * It's a very simple protocol, that I would not recommend you to use.
 * You can actually configure your Gmail to use POP3 (settings -> see all settings -> Forwarding and POP/IMAP)
 
-_Additional Reading: TCP_
+_Additional Reading: [TCP]()_
 This is a look at a more advanced protocol.
 How we provide reliability from unreliable protocols (And other guarantees). Remember the end-to-end argument!
 
@@ -62,27 +62,24 @@ Layering is a particular form of abstraction
 The system is broken into a vertical stack of functions/protocols
 The service provided by one layer is based solely on the service provided by layer below–This is the “up/down” interface
 
-_Example: Mail_
-POP3: Mail protocol
-TCP: Reliable connection
-IP: Unreliable connection
-Link layer...
+The internet is many *protocols* layered on top of eachother
 
 4 sweeping layers of abstraction
 Mention OSI model
+*Show diagram*
 
-
-Link layer
+Link layer *lowest*
 * Point to point communication - single hop
 * For our purposes, we don’t care about this layer
 Network layer
 * Basic point to point communication - any # hops
 * Uses link layer to accomplish
 * No guarantees
-End-to-end layer (Broken down into Transport and application layer)
+End-to-end layer (Broken down into Transport and application layer) *highest*
 * Provides specific guarantees depending on application (security, ordering, reliability, correctness, special syntax/semantics, etc)
 
 _Example Mail_
+*Draw out on whiteboard - walk through what each layer does and how affects the message being passed*
 POP3: Mail protocol
 TCP: Reliable connection
 IP: Unreliable connection
@@ -94,6 +91,7 @@ The network layer gives the most basic functionality of the internet: Aka, the I
 It runs the world and is what everything else is based on
 
 If we visualize the layers and all the protocols, it's an hourglass
+*Show image*
 
 
 We use IP address to specify destination
@@ -146,6 +144,9 @@ Frontend, Backend, and how they fit in
 
 ## Homework
 Read: Internet_whitepaper 
+
+Answer questions: 
+* 
 
 ## Supplementary Content
 ### Networking
