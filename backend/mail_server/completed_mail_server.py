@@ -1,5 +1,10 @@
 import socket
 
+"""
+Do not look at this class until you are done!
+TODO: Most protocols
+"""
+
 
 def main():
     # Define the host and port to listen on
@@ -49,11 +54,12 @@ mailboxes: dict[str, list[str]] = {}
 
 
 class MailProtocol:
-    # You will implement this method
     @staticmethod
     def process_request(request: str) -> str:
         # Create
         tokens = request.split()
+        if not tokens:
+            return FAILURE
         if tokens[0] == 'CREATE':
             if len(tokens) < 2:
                 return FAILURE
@@ -63,7 +69,7 @@ class MailProtocol:
             mailboxes[box_name] = []
             return SUCCESS
 
-        return f"Server recieved {request}"
+        return FAILURE
 
 
 if __name__ == '__main__':
