@@ -46,6 +46,11 @@ TODO: Something about javascript and URLs being the bridge between the two.
 Protocol used by websites - Web browsers use HTTP automatically. 
 
 Is used with client server architecture, which is reflected in the protocol
+1. client sends request
+2. server rends response
+
+You may notice this is nothing new. So whats special about HTTP? 
+Its semantics relect  - REWORD - Database and getting files using file paths
 
 HTTP uses TCP
 Q: What does this say about HTTP?
@@ -58,6 +63,17 @@ VERB ROUTE HTTP-VERSION
 HEADERS
 BODY
 
+VERBS 
+* GET, PUT, POST, PATCH, DELETE (There are a few less known and less used verbs eg. OPTIONS, HEAD)
+    * The main verbs reflect database operations...
+    * CREATE, READ, UPDATE, DELETE
+ROUTE 
+* Think of a file path
+HEADERS
+* Key value pairs of metadata
+BODY
+* Text, the main payload
+
 https://datatracker.ietf.org/doc/html/rfc2616#section-5
 
 _Response (Response)_
@@ -65,12 +81,35 @@ HTTP-VERSION STATUS-CODE REASON-PHRASE
 HEADERS 
 BODY
 
+STATUS-CODE
+* Number ranging from 100 to 500, depending on how the request went. (Success, Client Issue, Server Failure, Redirect)
+HEADERS
+* Key value pairs of metadata
+BODY
+* Text, the main payload
+
 There are many other features of HTTP we will learn later!
 
 *Example with telnet: Get google home page: Show the actual request with wireshark*
 
 In the future, we will use software to make these requests easier (Postman, thunder client)
 
-*Practice: TODO*
+*Example with custom 
 
+In lower level protocols, the implementations almost always follow the specs to a T. HTTP not so much. 
 
+HTTP web server implementations fall into 2 categories, "Batteries included", and "Batteries not included". 
+
+Batteries included provide a lot for you.
+
+Batteries not included provide more freedom at the expense of needing to write more and perhaps being "technically" not correct. 
+
+## Recap
+
+## Whats Next
+
+## Homework
+
+1. Databases
+
+2. 

@@ -3,8 +3,17 @@
     * HW: Case study on TCP
 2. Hands on creating a mail protocol with sockets
     * Finish the protocol
-3. Architectures (Client/Server, P2P), Overview of Frontend/Backend, HTTP
-    * TODO
+3. Architectures (Client/Server, P2P), Overview of Frontend/Backend, HTTP / Websocket
+    * Create basic HTTP Backend Server
+
+TODO: 
+[ ] Data fetching and page fetching
+[ ] JSON and other hypermedia
+[ ] Databases
+[ ] Monolith? 
+[ ] System design Overview: Performance, Reliability, Scalability, Security
+[ ] External API's (eg. Stripe)  - go over more advanced client server during this time
+[ ] Hackathon Project
 
 ## Supplementary Content
 ### How to Learn
