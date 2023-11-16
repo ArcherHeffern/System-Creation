@@ -1,10 +1,21 @@
 ## Backend Curriculum
-1. The Internet, Protocols, TCP/IP Model, and Sockets
+1. The Internet pt1. Protocols, TCP/IP Model, and Sockets
     * HW: Case study on TCP
-2. Hands on creating a mail protocol with sockets
+2. The Internet pt2. Hands on mail protocol with sockets
     * Finish the protocol
-3. Architectures (Client/Server, P2P), Overview of Frontend/Backend, HTTP / Websocket
-    * Create basic HTTP Backend Server
+3. !!!TODO: Architectures (Client/Server, P2P), Overview of Frontend/Backend, HTTP / Websocket
+    * Designing architectures and something with web server
+4. More HTTP: JSON, Query string parameters, path parameters, hands on mail server
+    * Finish basic HTTP Backend Server
+5. Databases pt1. Essentials
+    * 
+6. Databases pt2. Hands on mail server with state
+    * 
+
+7. Hackathon Project
+8. Hackathon Project
+9. Hackathon Project
+10. Hackathon Project
 
 TODO: 
 [ ] Data fetching and page fetching
