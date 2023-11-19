@@ -43,6 +43,8 @@ Web servers librarys are just TCP socket servers that...
 
 # Hello world Server
 Choose either python or java to code in.  
+For python we will use flask, for java, we will use spring boot
+
 
 Create a HTTP web server with 2 endpoints, one at "GET /", which returns "hello world", and another that returns "hi mom"
 
