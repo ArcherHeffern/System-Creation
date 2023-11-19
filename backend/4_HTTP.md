@@ -19,11 +19,45 @@ nc <url> <port>
 GET /
 ```
 
+# General Model for Web Server Librarys
+// function called when METHOD and URL match
+@get('/name')
+function Route(request as object)
+    name = request.body
+
+    ...Do logic stuff...
+    response = new Response()
+    response.status = 200
+    response.headers.content-type = "application/json"
+    response.body = "<div>Hello ${name}<div>"
+
+    return response 
+
+Web servers librarys are just TCP socket servers that...
+* parse the incoming messages into a nice object according to HTTP
+* call the correct function according the the request line
+* allow you to create a response and do whatever you want
+* will send the response as a properly formatted http message over the socket
+
+*They make it so you don't have to work with raw strings and constantly reference the HTTP RFC documentation about all the nuances*
+
 # Hello world Server
+Choose either python or java to code in.  
+
 Create a HTTP web server with 2 endpoints, one at "GET /", which returns "hello world", and another that returns "hi mom"
 
 * If you finish early, change one to return a HTML anchor tag, referencing the other page. 
 *What do you think is happening under the hood when a user clicks on the anchor tag?*
+
+## Some additional HTTP Features
+1. Route parameters
+Routes can have variable parts
+eg. /user/age  
+Age can be the variable, so when the client navigates to /user/19, the 19 is parsed out
+
+2. Query string parameters
+We can put key value pairs at the end of a route
+eg. /usr?age=19
 
 # Basic Mail Web Server
 Lets come up with a a game plan...
@@ -50,3 +84,6 @@ _Ways to update your page_
 Challenges:
 * Add authentication - theory: User gives a password. We store the password. User must provide password for every action. In the real world, the server will give back a random(ish) string, for the client to authenticate with. That way permissions can easily be revoked and so passwords aren't easily accessable. 
 * Add persistance without a database (write to a file), parse it on application startup to recreate data structures
+
+Super Challenge:
+* Create or think of how you would create your own HTTP server/framework/library using sockets (This would look awesome on your github/resume!)
