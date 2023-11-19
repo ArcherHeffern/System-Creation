@@ -57,6 +57,8 @@ Notes:
 * It's a very simple protocol, that I would not recommend you to use.
 * You can actually configure your Gmail to use POP3 (settings -> see all settings -> Forwarding and POP/IMAP)
 
+_You don't need to remember this protocol! There are so many, so only remember the ones you need!_
+
 Your homework for next meeting will be about TCP. A more advanced protocol that runs the world.
 
 ## Layering (TCP/IP Model)

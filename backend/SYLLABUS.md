@@ -3,7 +3,7 @@
     * HW: Case study on TCP
 2. The Internet pt2. Hands on mail protocol with sockets
     * Finish the protocol
-3. !!!TODO: Architectures (Client/Server, P2P), Overview of Frontend/Backend, HTTP / Websocket
+3. Architectures (Client/Server, P2P), Overview of Frontend/Backend, HTTP / Websocket
     * Designing architectures and something with web server
 4. More HTTP: JSON, Query string parameters, path parameters, hands on mail server
     * Finish basic HTTP Backend Server
@@ -18,12 +18,13 @@
 10. Hackathon Project
 
 TODO: 
+[ ] DNS
 [ ] Data fetching and page fetching
-[ ] JSON and other hypermedia
+[x] JSON and other hypermedia
 [ ] Databases
-[ ] Monolith? 
-[ ] System design Overview: Performance, Reliability, Scalability, Security
-[ ] External API's (eg. Stripe)  - go over more advanced client server during this time
+[x] Monolith? 
+[x] System design Overview: Performance, Reliability, Scalability, Security
+[x] External API's (eg. Stripe)  - go over more advanced client server during this time
 [ ] Hackathon Project
 
 ## Supplementary Content
