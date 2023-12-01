@@ -23,8 +23,8 @@ The best way to learn is by reading...
 ...in conjunction with doing!
 
 ## Code
-You can often find source code for projects or libraries online. Just google for it or search on github
-[Malloc source](https://codebrowser.dev/glibc/glibc/malloc/malloc.c.html)
+You can often find source code for projects or libraries online. Just google for it or search on github  
+[Malloc source](https://codebrowser.dev/glibc/glibc/malloc/malloc.c.html)  
 [Linux OS source](https://github.com/torvalds/linux)
 
 If the codebase is complex, use a debugger
@@ -37,7 +37,7 @@ bash / zsh: The command *man* (manual) gives the documentation. Since its a comm
 man man
 ```
 
-If you want to learn about the internet, RFC (request for comment) are specifications for how all the internet works. 
+If you want to learn about the internet, RFC (request for comment) are specifications for how all the internet works.   
 [IP Protocol](https://datatracker.ietf.org/doc/html/rfc791)
 
 ## Books / Papers
