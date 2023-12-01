@@ -12,7 +12,7 @@ _You don't need all of these to be a good programmer_
 Learning is the easiest one to learn
 
 In the beginning, resources such as youtube, ChatGPT, and random articles will be helpful. 
-Once you reach advanced material, they will become less useful or literally useless
+Once you reach more advanced material, or work at a company with in house tooling, these resources will become less useful or literally useless
 
 
 The best way to learn is by reading...
