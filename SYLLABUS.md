@@ -1,4 +1,21 @@
-## Backend Curriculum
+# Intro
+1. Intro, How to learn
+
+TODO
+[ ] Create intro 
+[ ] Finish syllabus
+[ ] Create list of projects students can attempt
+[ ] Provide resources for getting started in different fields
+
+# OS
+1. CLI
+2. C
+3. System calls
+
+TODO
+[ ] C language education (currently all examples in python)
+
+# Network 
 1. The Internet pt1. Protocols, TCP/IP Model, and Sockets
     * HW: Case study on TCP
 2. The Internet pt2. Hands on mail protocol with sockets
@@ -12,11 +29,8 @@
 6. Databases pt2. Hands on mail server with state
     * 
 
-7. Hackathon Project
-8. Hackathon Project
-9. Hackathon Project
-10. Hackathon Project
 
+# Network 
 TODO: 
 [ ] DNS
 [ ] Data fetching and page fetching
@@ -26,6 +40,12 @@ TODO:
 [x] System design Overview: Performance, Reliability, Scalability, Security
 [x] External API's (eg. Stripe)  - go over more advanced client server during this time
 [ ] Hackathon Project
+[ ] Finish protocol completed answer
+[ ] TCP reading as first homework with whitepaper as supplement? 
+[ ] Work through layers during first lesson?
+[ ] Have second lesson be recap + create protocol
+[ ] Split lesson 2 into 2 and 3
+[ ] System design: Two tier and three-tier database architecture. Microservice, client server, if you can think of it, you can do it. Designing systems takes creativity
 
 ## Supplementary Content
 ### How to Learn
