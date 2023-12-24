@@ -56,9 +56,10 @@ Once you get to team lead, you can also transition to a more business level role
 [Levels in depth](https://youtu.be/q27H8cq1d-w?si=yQLsFt5IKsG9ADJu) (from a principal engineer)
 
 # Whats Next
-* Software Development 
+Software Development 
 
 # Homework
 * Fill out the when2meet
+* If you are not yet in the slack, let me know
 * Think about and write 3 project ideas you would like to do, and 3 fields of software you are might be interested in. (Don't have to be on the lists)
 * What would you like to take away from this education 

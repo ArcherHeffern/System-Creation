@@ -4,7 +4,8 @@
 * Enjoy swimming and cooking
 
 # The Basics
-* We meet twice a week room TBD time TBD
+* We meet twice a week
+* I will announce the location and time once everyone fills the when2meet
 * COSI 12b is a prerequisite 
 
 # Course Objective
@@ -40,7 +41,6 @@ The code we write for industry is under many more constraints than our personal 
 
 # Contact Information
 hefferna@brandeis.edu
-Slack
 
 # Whats Next
-* The big picture
+The big picture
