@@ -1,5 +1,5 @@
-# On College Computer Science
-* Be hungry, learn as much as possible, form opinions on software/methodologies, be active on campus
+# Some Advice
+* Be hungry, learn as much as possible, form opinions on software/methodologies, be active on campus. Go for breadth and later you can go for depth
 * Sell yourself, make sure people know (or think) you are smart, kind, and hardworking
 * Have good friends, have non CS friends, meet interesting people
 * Understand the business side, don't just be someone who can code
@@ -10,10 +10,39 @@ You will want to cry.
 I can provide guidance, but the other 99% is on you.
 Eventually if you do well, you can snowball
 
-# What is Software Engineering
-In general, its building software for a business application
+# Career Paths
+* Acadamia 
+    * Researcher
+* Industry 
+    * Software Development
+        * Supporters
+            * Project / Product Manager
+            * Business Analyst
+            * Scrum Master
+        * Creators
+            * Software Engineers
+            * Designers (UI/UX)
+            * Testers
+            * DevOps 
+            * Quality Assurance
+    * Other Paths
+        * Security
+        * Data Analysis
+        * Machine Learning
+        * Quantitative Finance 
+* Other
+    * Open source contributer
+    * Freelancer
+    * Independent contracters
 
-This can take many forms...
+Note the distinction between the roles depends on your team. For example, if its a...
+Solo project, you will both be managing and building the project
+If its a small team, there might have a PM, a designer, a tech lead, and a few engineers who all write their own tests
+
+# What is Software Engineering
+In general, its building software for a business application  
+
+The median of the software depends.
 
 * Embedded / IOT
 * Driver
@@ -26,34 +55,20 @@ This can take many forms...
 * Network
 * Distributed systems
 * Cloud
-Note this list is not exhaustive
-
-Related Roles
-* Security
-* DevOps
-* QA
-* Testing
-
-Also Popular 
-* Data (analysis/machine learning)
-* Quantitative finance
-* Project manager
-* Product manager
-
-# Possible projects 
-The end goal of personal projects is to do actual projects / internships that have impact
-
-*See projects list*
 
 # Industry SWE Progression
 Junior => Recieve code specs and lots of support
 Midlevel => Transition level, more self sufficient
-Team Lead => Lead project from end to end to solve an identified issue, design system, manage stakeholders, etc
-Staff Level => Identify issues and create teams
+Senior => Lead project from end to end to solve an identified issue, design system, manage stakeholders, etc
+Staff Level => Identify issues and opportunities and create teams
 
 Once you get to team lead, you can also transition to a more business level role. 
 [Levels](https://fly.io/docs/hiring/levels/)
-[Levels in depth](https://youtu.be/q27H8cq1d-w?si=yQLsFt5IKsG9ADJu) (from a principal engineer)
+
+# Possible projects 
+The end goal of personal projects is to do actual projects / internships that have impact. Preferably your projects are things you actually want.
+
+*See projects list*
 
 # Whats Next
 Software Development 
@@ -63,3 +78,10 @@ Software Development
 * If you are not yet in the slack, let me know
 * Think about and write 3 project ideas you would like to do, and 3 fields of software you are might be interested in. (Don't have to be on the lists)
 * What would you like to take away from this education 
+
+# Supplemental Material
+[John Carmack Starting Out Advice](https://youtu.be/HOv_dWDgIRM?si=COqyhXYT-T2U749X). John Carmack is one of the all time greats, He invented and created the First Person Shooter. He programmed Hovertank, which went on to become Wolfenstein 3D, which turned into DOOM, which spawned Quake, who’s engine led to half-life, counter strike, call of duty, and inspired every FPS you can think of. 
+[Pito Salas Job Hunting Tips](https://salas.com/jobs/)  
+[Pito Salas Keeping up in CS](https://salas.com/how-do-i-keep-up/)  
+[Tamid Brandeis getting a SWE / Consulting Position](https://drive.google.com/file/d/1871lktUs6u1Lbw5bZSzdPVkB_RRFjXAw/view?usp=drive_link)  
+[SWE Levels in depth](https://youtu.be/q27H8cq1d-w?si=yQLsFt5IKsG9ADJu) (from a principal engineer)

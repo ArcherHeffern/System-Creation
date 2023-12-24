@@ -29,6 +29,7 @@ There are many types of tests. I would suggest only creating what you think you 
 
 If you're writing personal code, don't be too formal. Just throw an assert straight into your codebase as a sanity check.  
 
+<!-- TODO: Might want to move this to the business sections under advanced debugging? -->
 # Monitoring Your System
 This is advanced and not really something you will want in your personal projects.
 It is good to be aware of this however.
@@ -41,7 +42,7 @@ Solution: A Monitoring Service. The service will recieve logs and performance da
 2. Use your best judgement for when to use these tools 
 
 # Homework
-1. Watch [https://youtu.be/tzr7hRXcwkw?si=0QH7WTWNUdgp0LDO](this) video where John Carmack goes into his tooling and general process. John Carmack is one of the greatest programmers to ever exist, he invented the FPS genre, and his codebases are known for being beautiful and bug free, treat his words as gospel.
+1. Watch [https://youtu.be/tzr7hRXcwkw?si=0QH7WTWNUdgp0LDO](this) video where John Carmack goes into his tooling and general process. 
 2. Clone [TODO](this) respository and do X (exercises in debugging and understanding large codebases)
 
 

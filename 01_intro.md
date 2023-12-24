@@ -1,7 +1,10 @@
 # Who am I
 * Archer
-* Incoming at LinkedIn, currently doing computational neuroscience research in the Marder Lab and TAing OS
-* Enjoy swimming and cooking
+* Incoming at LinkedIn
+* Tamid Global Director of Tech Consulting
+* Computational neuroscience researcher in the Marder Lab
+* Operating Systems TA
+* I like swimming and cooking
 
 # The Basics
 * We meet twice a week
@@ -12,14 +15,15 @@
 * Provide the key skills to become self sufficient in creating and working on personal and business applications
 * Provide experience working on a personal project
 * Understand what the next steps are
+* You will complete 2 projects. One personal and one group.
 
 # Course Topics
-The code we write for industry is under many more constraints than our personal code, adding much more complexity
-
-## General Development
+## Intro
 * The big picture
-* How to learn
+## Fundemental Skills for General Development
 * Iterative development
+* Basic coding
+* How to learn
 * Good coding practices
 * Debugging
 * Using your operating system
@@ -27,13 +31,16 @@ The code we write for industry is under many more constraints than our personal 
 * Databases + Data modeling
 
 ## Industry Programming
+* Large scale software development overview
+* Project management
+* Version control
 * Business and programming (Pirate metrics, monitoring)
 * DevOps
 * Working in large codebases
 
-# Expectations
+# Expectations to Join a Track
 * Attendance is required
-* Reading and assignments are done on time
+* Reading and assignments are done before meetings
 * Participate
 
 # Absences
