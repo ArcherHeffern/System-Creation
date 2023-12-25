@@ -1,14 +1,13 @@
-# Some Advice
-* Be hungry, learn as much as possible, form opinions on software/methodologies, be active on campus. Go for breadth and later you can go for depth
-* Sell yourself, make sure people know (or think) you are smart, kind, and hardworking
-* Have good friends, have non CS friends, meet interesting people
-* Understand the business side, don't just be someone who can code
-* Always go for leadership roles
+# My Advice
+Be hungry: Learn as much as possible, form opinions on software/methodologies, be active on campus. Go for breadth and later you can go for depth
+Sell yourself: Make sure people know (or think) you are smart, kind, and hardworking
+People are important: Have an amazing support group, have non CS friends, and meet interesting people
+Understand the business side: Don't just be someone who can code
+Get leadership roles: You will learn so much more
 
 It's going to be incredibly hard.
-You will want to cry.
-I can provide guidance, but the other 99% is on you.
-Eventually if you do well, you can snowball
+It's a marathon.
+Keep going.
 
 # Career Paths
 * Acadamia 

@@ -47,10 +47,11 @@ Books and Papers are amazing, use google scholar, library databases, or ask prof
 
 # General Tips
 * Learn [How to read](https://youtu.be/nqYmmZKY4sA?si=WmU-UNg3AoG5vD2e)
+* Documentation >> Tutorials
 * Don't get caught up in tutorial hell
 * You don't need to know everything, so don't learn everything
 * Learn at least 1 programming language truly in depth
-* The goal is to code, so code as much as possible
+* The goal is to code, so code 
 
 # Whats Next
 * Git

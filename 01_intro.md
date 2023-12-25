@@ -20,7 +20,8 @@
 # Course Topics
 ## Intro
 * The big picture
-## Fundemental Skills for General Development
+
+## Fundemental Skills for General Software Development
 * Iterative development
 * Basic coding
 * How to learn
