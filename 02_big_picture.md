@@ -70,11 +70,12 @@ The end goal of personal projects is to do actual projects / internships that ha
 *See projects list*
 
 # Whats Next
-Software Development 
+Iterative Development
 
 # Homework
 * Fill out the when2meet
 * If you are not yet in the slack, let me know
+* Join the mastery learning
 * Think about and write 3 project ideas you would like to do, and 3 fields of software you are might be interested in. (Don't have to be on the lists)
 * What would you like to take away from this education 
 

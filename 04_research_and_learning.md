@@ -55,3 +55,7 @@ Books and Papers are amazing, use google scholar, library databases, or ask prof
 
 # Whats Next
 * Git
+
+# Homework
+Read [worse is better](https://www.dreamsongs.com/WorseIsBetter.html)  
+Perform research on an interesting project idea and propose a MVP 

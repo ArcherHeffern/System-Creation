@@ -27,8 +27,7 @@ Plan => Code => Test => Repeat
 # Video Study
 [Machine Learning in C; Tsoding](https://youtu.be/PGSba51aRYU?si=7nKjCw9fQHmndpyH)
 Notice his development process.  
-He did his research beforehand and knows what he generally wants. He created a very basic model makes sure its was correct. Then he iterates 
+He did his research beforehand and knows what he generally wants. He created a very basic model makes sure its was correct with some print statements. Then he iterates. He thinks of an improvement, maybe does some googling, and then implements the change, and repeats this process.
 
-# Homework
-Read [worse is better](https://www.dreamsongs.com/WorseIsBetter.html)
-Perform research on X -> Propose a MVP -> Create 
+# Whats Next
+Research and how to Learn
