@@ -4,11 +4,11 @@
 
 ## Applications: Web Dev, Mobile, Desktop, Terminal Based 
 ### Getting started
-See the above video. This grouping may seem quite strange, but the actual projects you can do for each of these overlap a lot. A TODO list with a proper backend and database is the best starter project. You should also make a personal website, host it, and link it on github and LinkedIn.
+See the above video. This grouping may seem quite strange, but the actual projects you can do for each of these overlap a lot. A TODO list with a proper backend and database is the best starter project. You should also make a personal website, host it, and link it on github and LinkedIn.  
 
+How are they similar?
 - They all are applications - they provide a service to end users
-- They all have a concept of frontend and backend - All it depends on is if half the application is split over the network
-- They all can have very similar arcitectures (Frontend, Backend, API's, Database), even if you may see this less often in termial applications
+- They can all have a concept of frontend and backend - and even API's and Databases - All it depends on is if half the application is split over the network
 
 ### Projects
 * __personal website__: Link on your github / LinkedIn
