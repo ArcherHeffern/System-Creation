@@ -1,37 +1,86 @@
+[Roadmap](https://youtu.be/66tfvFeALBQ?si=l_BVcDWDUTRSM_u6) for Web Dev, Desktop, Mobile, Hardware, Game Dev, ML, and Low level systems
+
 # Projects List
 
-Full Stack
+## Applications: Web Dev, Mobile, Desktop, Terminal Based 
+Getting started: See the above video. This grouping may seem quite strange, but the actual projects you can do for each of these overlap a lot. A TODO list with a proper backend and database is the best starter project. You should also make a personal website, host it, and link it on github and LinkedIn.
+
+- They all are applications - they provide a service to end users
+- They all have a concept of frontend and backend - All it depends on is if half the application is split over the network
+- They all can have very similar arcitectures (Frontend, Backend, API's, Database), even if you may see this less often in termial applications
+
 * __personal website__: Link on your github / LinkedIn
-* See hackathon project below
-* Create a framework
-Embedded / IOT
-* Get an arduino / raspberry PI  -> [Party button](https://youtu.be/R_kYaPZ6eds?si=WsLHhAvcGNtmSxcU)
+* TODO List
+* [Hackathon project](https://mlh.io/seasons/2024/events): Look at the prompts and just make something. Bonus if you win
+* Think of any application with a UI
+
+## Embedded / IOT / Engineering
+Getting Started: Get an Arduino or raspberry PI, check out cool things engineers make and make something. Find engineers or an engineering lab on campus so you don't have to pay as much to get started. They may even lend you an Arduino. 
+
+* Beverage robot
+* Smart couch
 * Smart home automation
-Compilers / Interpreters
-* https://craftinginterpreters.com/
+* Battle bot
+* [Party Button!](https://youtu.be/R_kYaPZ6eds?si=1K69JwoB3ir_fC97)
+
+## Compilers / Interpreters
+Getting Started: These books are amazing  
+[Crafting Interpreters](https://craftinginterpreters.com/)  
+[Compilers: Principles, Techniques, and Tools](https://en.wikipedia.org/wiki/Compilers:_Principles,_Techniques,_and_Tools)  
+[Principles of Compiler Design](https://en.wikipedia.org/wiki/Principles_of_Compiler_Design)  
+
 * Create a lisp interpreter
 * Assembly interpreter
-Networking
+* [Dreamberd](https://github.com/TodePond/DreamBerd---e-acc)
+* Design and implement a language
+
+## Computer Networking
+Getting Started:
+Read this [Internet whitepaper](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm) for broad picture.
+Use sockets to implement a basic TCP web proxy that supports 1 connection, use [netcat](https://en.wikipedia.org/wiki/Netcat) to test. 
+* Follow [this](https://www.scs.stanford.edu/07wi-cs244b/refs/net2.pdf) guide on using sockets. I'd suggest if you have time learning C in the process, its a suprisingly simple and elegant language, and will help you understand so much more. (Or don't and use sockets in your preferred language). Sockets are the lowest level abstraction you (reasonably) have access to, provided directly by the operating system through system calls. 
+* Once you are done, there are several improvements you can make:
+    * Increase number of users
+    * Improve performance by using threading (pthreads) or async IO (described in the guide)
+        * Implement event driven architecture
+    * Ensure no buffer overflows are possible
+
+For more comprehensive networking knowledge, [this](https://en.wikipedia.org/wiki/TCP/IP_Illustrated) book is a classic
+
 * HTTP server from scratch (using sockets and string processing, see the HTTP RFC for reference)
-* IRC Client
+* Internet Relay Chat (IRC) Client
+* SOCKS proxy
 * DNS Resolver
 * VPN Client
 * Redis Server
-* Skype clone using original Peer to peer architecture
 * NAT hole puncher
-* 2 Phase commit
-* Distributed Hash Table
-* Map reduce clone
+* Map Reduce clone
 * Google file system clone
-Concurrency
+
+## Concurrency
+Getting started: Understand general operating systems concepts, then work through the following 5 items in their order
+
 * Low Level: Build Locks (Test and Set or other) (lock, unlock, trylock)
 * thread Level: Build a small threads package
 * Custom user threads library (many to 1, 1:1, many to many)
 * Synchronization Level: Build mutexes and semaphores
 * Application Level: Producer and consumer (… type problems)
+
 * Multiple editing of 1 doc
 * Implement a thread pool
-Misc
+* Concurrent web scraper: Scrape data from devpost and compile into CSV
+
+## Distributed Systems
+Getting Started: This quite a hard dicipline, and I don't know too much about it, however its at the intersection of industry and acadamia so reach out to a professor (for 'Desians see Professor Luiba). You can also do [these](https://fly.io/dist-sys/) challenges 
+
+* Skype clone using original Peer to peer architecture
+* 2 Phase commit
+* Distributed Hash Table
+
+## Data Science / Machine Learning
+Getting Started: Compete in [Kaggle](https://www.kaggle.com/) / [hackathons](https://mlh.io), or join a lab.
+
+## Misc
 * __[Hackathon project](https://mlh.io/seasons/2024/events)__
 * URL Shortener
 * Application load balancer
@@ -47,6 +96,5 @@ Misc
 * 6502 microprocessor emulator 
 * Command line procedurally generated game (Eg. Elite; 1984)
 * Database recovery mechanism
-* Devpost web scraper -> compile into CSV - Bonus if you make it concurrent
 * Chess bot
 * Chess board manipulation library
