@@ -1,11 +1,11 @@
 # The Heart of Programming
+__The heart of programming is knowing what you need, converting it to a theoretical solution, and converting the theory to code__  
+Converting to theory requires experience and knowledge of theory 
+Code translation requires experience, knowledge of avaliable tools, debugging ability, and a general knowledge of how to figure things out  
 
+?Does this quote apply? 
 If you find that you’re spending almost all your time on theory, start turning some attention to practical things; it will improve your theories. If you find that you’re spending almost all your time on practice, start turning some attention to theoretical things; it will improve your practice. - Donald Knuth
 
-__The heart of programming is knowing what you need, converting it to theory, and converting theory to code__  
-Converting to theory requires research 
-Learning theory requires research  
-Code translation requires experience, knowing how to use tools, debug, and a general knowledge of how to figure things out  
 
 Theory is all encompassing, its not just algorithms, but also architecture patterns, business related, and more  
 * Algorithms: Diffing => Used in Git and React
