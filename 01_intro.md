@@ -24,7 +24,7 @@ End April 19
 Jan 29: First Tamid Meeting
 1. Jan 29. Into + The big picture
 2. Jan 29-2. Researching, Learning, and Iterative development
-3. Feb 5. 
+3. Feb 5. Building Applications
 4. Feb 5-2. 
 5. Feb 12.
 6. Feb 12-2.
@@ -46,8 +46,8 @@ March 7th: Module 2 Starts
 20. Apr 1-2.
 21. Apr 8.
 22. Apr 8-2.
-23. Apr 15.
-24. Apr 15-2.
+23. Apr 15. 
+24. Apr 15-2. Last day: Project showcase and Pizza
 
 # Course Topics
 ## Intro

@@ -65,7 +65,7 @@ Once you get to team lead, you can also transition to a more business level role
 [Levels](https://fly.io/docs/hiring/levels/)
 
 # Possible projects 
-The end goal of personal projects is to do actual projects / internships that have impact. Preferably your projects are things you actually want.
+When starting out, you will probably do projects just for experience, even if they aren't original, this is completely fine. Once you get better, try to do projects that fix an issue. Ask professors or friends. 
 
 *See projects list*
 
