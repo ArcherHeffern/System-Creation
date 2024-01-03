@@ -2,7 +2,7 @@
 
 If you find that you’re spending almost all your time on theory, start turning some attention to practical things; it will improve your theories. If you find that you’re spending almost all your time on practice, start turning some attention to theoretical things; it will improve your practice. - Donald Knuth
 
-__The heart of programming is knowing theory, and how to turn it into code__
+__The heart of programming is knowing theory, and how to turn it into code__  
 Improving at theory requires knowing know to research  
 Improving at code translation process requires practice, knowing how to use tools, debug, and a general knowledge of how to figure things out  
 
@@ -14,12 +14,13 @@ So, how do we learn theory and figure things out?
 2. Asking Questions
 
 ## Reading
-For basic topics, resources such as ChatGPT, Youtube, Random Articles are helpful, however, they are less comprehensive and will not help you once you reach more advanced material, or work at a company with in house tooling  
+For basic topics, resources such as *ChatGPT, Youtube, Random Articles* are helpful, however, they are less comprehensive and will not help you once you reach more advanced material, or work at a company with in house tooling  
 
 The best way to learn and debug advanced issues is by reading...
 * Code
 * Documentation
 * Stackoverflow
+* Github Issues
 * Wikipedia
 * Whitepapers / research papers
 * Books
@@ -44,7 +45,7 @@ apropos <keyword>
 ```
 
 If you want to learn about the internet, RFC (request for comment) are specifications for how all the internet works.   
-[IP Protocol](https://datatracker.ietf.org/doc/html/rfc791)
+* [IP Protocol](https://datatracker.ietf.org/doc/html/rfc791)
 
 ### Whitepapers / Research Papers
 Whitepapers are opinionated research papers.  
@@ -72,7 +73,7 @@ How do we ask a good question?
 If you are providing code, simplify it as much as possible. This may even help you figure out the issue yourself!
 
 ## General Tips
-* Having a large bredth of knowledge is important, I recommend (fireship's)[https://www.youtube.com/c/fireship] X in 100 second videos
+* Having a large bredth of knowledge is important, I recommend [fireship's](https://www.youtube.com/c/fireship) X in 100 second videos
 * Documentation and theory are much better than tutorials
 * Don't get caught up in tutorial hell
 * You don't need to know everything, so don't learn everything
