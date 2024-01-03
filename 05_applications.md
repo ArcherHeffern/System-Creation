@@ -48,5 +48,14 @@ These IO Options aren't just for to interface with the user. We can use them to 
 Q: Brainstorm how we can use Files and the network for actions other than directly interfacing with the user
 A: 
 * Files are good for storing data between executions of a program
-* The network is good for communicating with other programs, which can be on any computer globally, and making your program globally accessable
+* The network is good for communicating with other programs (globally), making your program accessable (globally), and generally sending information to a machine anywhere on earth assuming internet connection
+    * Note: A computer can send network requests to itself
 
+
+# Practice
+1. Mail program. Only accessable from the machine its on and when the program ends all information is lost. Interaction happens at the command line
+2. ... Now data should persist
+3. ... Now create a nice user interface for it. <!-- TODO: The ordering here seems wrong - also whats up with mobile app ;-; eugh explaining server and application is going to be a pain here TODO: figure this out-->
+4. ... This is where the methods differ: Make it globally accessable. If website or app create backend 
+
+Note to self: Network can be easily reasoned about by thinking of it as; instead of sending commands through the command line, we are now sending the exact same commands through the network. show image of this later
