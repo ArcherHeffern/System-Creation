@@ -1,8 +1,10 @@
-# Applications 
+# Applications (Backendless)
 ## Why
 Software development is a large place, there is so much to do. However, applications are very relevent in todays day and age.  
 Q: Why applications, why aren't we doing web development or mobile app?  
 A: They are all so similar, to specialize now would be a crime to you all  
+
+Adding computer networking 
 
 ## Examples
 There are many types of business applications
@@ -56,6 +58,14 @@ A:
 1. Mail program. Only accessable from the machine its on and when the program ends all information is lost. Interaction happens at the command line
 2. ... Now data should persist
 3. ... Now create a nice user interface for it. <!-- TODO: The ordering here seems wrong - also whats up with mobile app ;-; eugh explaining server and application is going to be a pain here TODO: figure this out-->
+
+Q: What do we have now: A program that can be used by several people, but only on the same machine, how can we make this globally accessable?
+# Distributed Applications
+A: Computer Network. There is a range of approach:
+* Peer to Peer: All applications talk to eachother
+* Centralized server: All applications talk to a main computer that 
+
+4. Now we may want to make our program have globally accessable shared state, maybe we would like it so , so how do we do this? 
 4. ... This is where the methods differ: Make it globally accessable. If website or app create backend 
 
 Note to self: Network can be easily reasoned about by thinking of it as; instead of sending commands through the command line, we are now sending the exact same commands through the network. show image of this later
