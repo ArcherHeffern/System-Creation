@@ -1,7 +1,10 @@
 # TamidTechEducation
 
 Notes for teaching: 
-* First start off with drawings to emphasize the conceptual aspects
-* Then provide code examples, with constant references back to the drawings
-* Have students work through the code examples with you
-* Provide practice at the end for them to work through
+* Don't screen share, this content is much too dense and distracting. 
+* Instead, talk and use a whiteboard to emphasize, and provide a sort of visual history of the though process
+* I would highly recommend against using slides, they are a selling tool, not an educating tool
+* Repeat things
+* Screen share if there is something a diagram or some visual of interest - then afterwards stop the share
+
+[Here](https://youtu.be/Unzc731iCUY?si=MAjDwahNwJofCTGd) is a great resource I suggest watching

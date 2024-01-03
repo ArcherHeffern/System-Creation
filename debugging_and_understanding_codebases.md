@@ -10,6 +10,8 @@ So what to do?
 2. Run tests on parts or the whole codebase __with a debugger__. In doing so, try to understand the greater system (see the Carmack video for more on this)
 
 # Debugging
+All of what we learned about performing research is applicable here. The aspect of debugging we are focusing on here is in code debugging
+
 ## Logging
 * keep logs of important events, when they happen, and other data that could be useful to diagnose issue
 * Could be print statements, or logs written to a file with metadata such as time of execution or even more, its up to you.

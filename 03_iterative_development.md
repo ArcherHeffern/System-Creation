@@ -31,3 +31,6 @@ He did his research beforehand and knows what he generally wants. He created a v
 
 # Whats Next
 Research and how to Learn
+
+# Homework
+Read [worse is better](https://www.dreamsongs.com/WorseIsBetter.html)  

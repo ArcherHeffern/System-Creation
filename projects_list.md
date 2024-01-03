@@ -1,7 +1,6 @@
 [Roadmap](https://youtu.be/66tfvFeALBQ?si=l_BVcDWDUTRSM_u6) for Web Dev, Desktop, Mobile, Hardware, Game Dev, ML, and Low level systems
 
 # Projects List
-
 ## Applications: Web Dev, Mobile, Desktop, Terminal Based 
 ### Getting started
 See the above video. This grouping may seem quite strange, but the actual projects you can do for each of these overlap a lot. A TODO list with a proper backend and database is the best starter project. You should also make a personal website, host it, and link it on github and LinkedIn.  
@@ -95,7 +94,8 @@ This quite a hard dicipline, and I don't know too much about it. You can conside
 
 ## Data Science / Machine Learning
 ### Getting Started
-* Complete the Kaggle courses, compete in [Kaggle](https://www.kaggle.com/) 
+* Complete some Kaggle courses, learn a data analysis language (Python, Julia, R, Matlab), learn of the libraries avaliable, then...
+* Compete in [Kaggle](https://www.kaggle.com/) 
 * Join [hackathons](https://mlh.io)
 * Do research, reach out to professors or a lab
 

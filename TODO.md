@@ -14,6 +14,9 @@
 * UI / UX
 * Basic web dev
 
+* Mention how managing risk and complexity play a large role in business application development
+    * It tends to be that a lot of the code and work we do isn't actually the actual product, but things to manage the development of the project (Most things in devops) and managing (Testing) risk
+
 # Misc
 plan => code => test => deploy
 build => measure => learn
