@@ -6,7 +6,11 @@ __The heart of programming is knowing theory, and how to turn it into code__
 Improving at theory requires knowing know to research  
 Improving at code translation process requires practice, knowing how to use tools, debug, and a general knowledge of how to figure things out  
 
-Theory only need to be mathamatical, it can also be business related, eg. Lean/Agile Theory causes us to code DevOps Pipelines
+Theory is all encompassing, its not just algorithms, but also architecture patterns, business related, and more  
+* Algorithms: Diffing  => Used in Git and React
+* Architecture patterns: MVC (Model View Controller) => User interfaces
+* Business: Lean / Agile (Used as baseline for creating CI/CD pipelines)
+* And more: HTTP Protocol (Specification) => HTTP Server
 
 So, how do we learn theory and figure things out?
 
