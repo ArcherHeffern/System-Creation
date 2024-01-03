@@ -2,12 +2,13 @@
 
 If you find that you’re spending almost all your time on theory, start turning some attention to practical things; it will improve your theories. If you find that you’re spending almost all your time on practice, start turning some attention to theoretical things; it will improve your practice. - Donald Knuth
 
-__The heart of programming is knowing theory, and how to turn it into code__  
-Improving at theory requires knowing know to research  
-Improving at code translation process requires practice, knowing how to use tools, debug, and a general knowledge of how to figure things out  
+__The heart of programming is knowing what you need, converting it to theory, and converting theory to code__  
+Converting to theory requires research 
+Learning theory requires research  
+Code translation requires experience, knowing how to use tools, debug, and a general knowledge of how to figure things out  
 
 Theory is all encompassing, its not just algorithms, but also architecture patterns, business related, and more  
-* Algorithms: Diffing  => Used in Git and React
+* Algorithms: Diffing => Used in Git and React
 * Architecture patterns: MVC (Model View Controller) => User interfaces
 * Business: Lean / Agile (Used as baseline for creating CI/CD pipelines)
 * And more: HTTP Protocol (Specification) => HTTP Server
