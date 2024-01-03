@@ -1,8 +1,8 @@
 # Applications 
 ## Why
-Software development is a large place, there is so much to do. However, applications are very relevent in todays day and age. 
-Q: Why applications, why aren't we doing web development or mobile app? 
-A: They are all so similar, to specialize now would be a crime to you all
+Software development is a large place, there is so much to do. However, applications are very relevent in todays day and age.  
+Q: Why applications, why aren't we doing web development or mobile app?  
+A: They are all so similar, to specialize now would be a crime to you all  
 
 ## Examples
 There are many types of business applications
