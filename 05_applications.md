@@ -7,7 +7,7 @@ You may be thinking, archer, what is this?? This is so stupid and insane! I hear
 
 While the tooling for many platforms is different, the logic is always the same and honestly IMO not very interesting. Different platforms may provide different APIs or folder structures or other tooling but at the  end of the day, it’s some UI library, some native APIs, and some controlling logic. As a little foray into this we will experiment with desktop (or any Linux non Stdout IO methods), and then delve into the wonderful world of distributed applications.
 
-(Can I conceptually call this all web dev?)
+(Can I conceptually call this all frontend?)
 
 My goal is to make frontend seem simple, because conceptually it is. We will a little bit of experience with UI's using linux based IO. Draw connections to how other hardwares work (IOS, Android, perhaps Windows?), and how they are pretty much the same and very easy to learn. 
 
