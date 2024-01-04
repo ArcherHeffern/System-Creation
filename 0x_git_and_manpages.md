@@ -3,6 +3,7 @@ TODO:
 * Pushing and pulling practice
 * Pulling merge conflicts
 * Pull requests
+* amend
 
 # Git
 
@@ -24,7 +25,8 @@ We always need to create a repository, this is how our changes get tracked
 
 How do we create these checkpoints
 
-1. Stage
+*Make changes; add / delete files*
+1. Stage: Add to "staging area/index"
 2. Commit
 3. (Optional) Push (put the .git file online)
 
@@ -58,6 +60,8 @@ Git will show you where it does not know how to merge due to ambiguity. You can 
 
 *Challenge: Do exercise 5 individually*
 
+
+
 ### Review:
 
 * What is git
@@ -67,53 +71,25 @@ Git will show you where it does not know how to merge due to ambiguity. You can 
 * Merging
 * Handling merge conflicts
 
-# Remotes (Github, Gitlab, Bitbucket, etc)
+# Homework
+* Read the manpage *gittutorial(7)* up to the section 'USING GIT FOR COLLABORATION'
+* Skim the *giteveryday* manpage *"INDIVIDUAL DEVELOPER (STANDALONE)"* section
 
-At their most basic level: Just sites to store our .git folder!
+* Practice making commits, creating branches, creating conflicts, merging them
+* Practice managing the index with *git add* and *git restore*
+* Practice undoing commits with *git reset*
 
-Amazing for working as teams!
-
-Q: What is our .git folder
-
-*Do exercise 6 with everyone*
-
-### Cloning
-
-How do we get git repositories from github onto our machine?
-
-``` bash
-git clone <url>
+If you get stuck, read the manpages. Syntax is *man git-<command>* or *git help <commmand> as outlined in the *gitcli* manpage. Example:
+```bash
+man git-reset
+# OR 
+git help reset
 ```
 
-*Do exercise 7 with everyone*
-
-### Pulling and pushing
-
-Q: How do you get the up to date version of the project?  
-Q: How do you upload your changes to github?  
-Q: What happens if you try to upload an outdated version of the project to github?  
-
-A: Pull!  
-A: Push!  
-A: Pull, then push!  
-
-#### Resolving merge conflicts when pulling
-
-If you have changes that the remote does not have, you may run into merge conflicts, simply fix them like how you usually fix merge conflicts. 
-
-### Pull requests
-
-
-
-### Remotes Review
-
-* What is a remote
-* Cloning
-* Pulling
-* Pushing
-* Pull requests
-* Resolving merge conflicts when pulling
+If you are interested in learning more, follow the git(1) manpage. 
 
 # Additional Notes
+* Once we get to business development, we will discuss using git for collaboration
 * If you would like additional practice with what we have learned, or would like to learn more, just mess around with git, and google things you don't understand. (Don't get caught in tutorial hell)
-* If you would like to learn how to use git in the terminal, google a git cheatsheet. Don't bother watching a video if you already understand the concepts, just practice by doing.
+Q: What about github or bitbucket, or gitlab???  
+A: Those are websites to store a copy of your .git folder. They make it easy for many people to work on the same project

@@ -9,7 +9,7 @@ While the tooling for many platforms is different, the logic is always the same 
 
 (Can I conceptually call this all frontend?)
 
-My goal is to make frontend seem simple, because conceptually it is. We will a little bit of experience with UI's using linux based IO. Draw connections to how other hardwares work (IOS, Android, perhaps Windows?), and how they are pretty much the same and very easy to learn. 
+My goal is to make frontend seem simple, because conceptually it is. We will get little bit of experience with UI's using linux based IO. Draw connections to how other hardwares work (IOS, Android, perhaps Windows?), and how they are pretty much the same and very easy to learn. 
 
 Then we will transition to distributed Applications which introduces computer networking, basic system design, databases, API's, and web dev as an emergent property. 
 

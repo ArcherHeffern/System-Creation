@@ -1,13 +1,10 @@
 # My Advice
-Be hungry: Learn as much as possible, form opinions on software/methodologies, be active on campus. Go for breadth and later you can go for depth
-Sell yourself: Make sure people know (or think) you are smart, kind, and hardworking
-People are important: Have an amazing support group, have non CS friends, and meet interesting people
-Understand the business side: Don't just be someone who can code
-Get leadership roles: You will learn so much more
+* Be hungry: Learn as much as possible, go for breadth and depth, form opinions on software/methodologies, be active on campus, get leadership roles
+* Sell yourself: Make sure people know (or think) you are smart, kind, and hardworking
+* People are important: Have an amazing support group, have non CS friends, and meet interesting people
+* Understand the business side: Don't just be someone who can code
 
-It's going to be incredibly hard.
-It's a marathon.
-Keep going.
+It's going to be hard.
 
 # Career Paths
 * Acadamia 
@@ -46,6 +43,7 @@ The median of the software depends.
 * Embedded / IOT
 * Driver
 * Compilers / Interpreters
+* Information Theory
 * Operating systems
 * Game
 * Frontend (website, mobile app)
@@ -67,7 +65,7 @@ Once you get to team lead, you can also transition to a more business level role
 # Possible projects 
 When starting out, you will probably do projects just for experience, even if they aren't original, this is completely fine. Once you get better, try to do projects that fix an issue. Ask professors or friends. 
 
-*See projects list*
+If you are having trouble coming up with ideas, *See projects list*
 
 # Whats Next
 Iterative Development

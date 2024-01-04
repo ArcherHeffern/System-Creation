@@ -77,6 +77,8 @@ How do we ask a good question?
 If you are providing code, simplify it as much as possible. This may even help you figure out the issue yourself!
 
 ## General Tips
+* Break things, you learn a lot from debugging. I personally have broken my Operating System 3 times and learned a lot each time.
+* Write things down!
 * Having a large bredth of knowledge is important, I recommend [fireship's](https://www.youtube.com/c/fireship) X in 100 second videos
 * Documentation and theory are much better than tutorials
 * Don't get caught up in tutorial hell
@@ -84,7 +86,6 @@ If you are providing code, simplify it as much as possible. This may even help y
 * Learn at least 1 programming language truly in depth
 * The goal is to code, so code 
 * If you are going to learn from videos, stick to the short ones - None of that, "X in 1 hour", or "learn Y in 31 hours" 
-* Write things down!
 
 # Whats Next
 * Basic Application Architecture
