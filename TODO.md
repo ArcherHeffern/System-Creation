@@ -17,6 +17,22 @@
 * Mention how managing risk and complexity play a large role in business application development
     * It tends to be that a lot of the code and work we do isn't actually the actual product, but things to manage the development of the project (Most things in devops) and managing (Testing) risk
 
+
+To add
+Interative development:
+Most unlearn what you have leaned in Java
+
+Business development:
+1. Customer centric - you exist to solve a problem
+2. Know how to empirically measure success (know your KPI’s and OBSESS over them)
+
+Mention how important business is - I know some of you may look down on business majors - they are dumb, and that might be true, but business itself is the lifeblood of what you will be doing
+
+Some notes on writing good code:
+- beautiful code - readable
+- I know you learned X in OOP, however, be wary of overabstracting, and of trying to design everything everything beforehand. This is not good for 2 reasons: 1. … 2. It’s not fun
+
+
 # Misc
 plan => code => test => deploy
 build => measure => learn

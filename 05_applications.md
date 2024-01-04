@@ -1,3 +1,19 @@
+# README
+This is a focus on internetless applications, with a focus on Linux based. 
+
+We start with creating a command line application with the Only IO used being stdin, stdout, and stderr. We then add other IO to improve the application. eg. File IO for peristant state, Unix Domain Sockets for multiple user IO on a single machine, etc
+
+You may be thinking, archer, what is this?? This is so stupid and insane! I hear you and this is a significant work in progress. The following are my current major thoughts regarding the matter
+
+While the tooling for many platforms is different, the logic is always the same and honestly IMO not very interesting. Different platforms may provide different APIs or folder structures or other tooling but at the  end of the day, it’s some UI library, some native APIs, and some controlling logic. As a little foray into this we will experiment with desktop (or any Linux non Stdout IO methods), and then delve into the wonderful world of distributed applications.
+
+(Can I conceptually call this all web dev?)
+
+My goal is to make frontend seem simple, because conceptually it is. We will a little bit of experience with UI's using linux based IO. Draw connections to how other hardwares work (IOS, Android, perhaps Windows?), and how they are pretty much the same and very easy to learn. 
+
+Then we will transition to distributed Applications which introduces computer networking, basic system design, databases, API's, and web dev as an emergent property. 
+
+
 # Applications (Backendless)
 ## Why
 Software development is a large place, there is so much to do. However, applications are very relevent in todays day and age.  
@@ -12,6 +28,8 @@ There are many types of business applications
 2. Websites
 3. Mobile
 4. Desktop
+
+I will not cover mobile, as due to being on custom hardware, 
 
 While seemingly very different...
 
@@ -61,6 +79,7 @@ A:
 
 Q: What do we have now: A program that can be used by several people, but only on the same machine, how can we make this globally accessable?
 # Distributed Applications
+This will take some refactoring depending on what approach you would like to take...and some discression on seperation of concerns
 A: Computer Network. There is a range of approach:
 * Peer to Peer: All applications talk to eachother
 * Centralized server: All applications talk to a main computer that 
@@ -69,3 +88,13 @@ A: Computer Network. There is a range of approach:
 4. ... This is where the methods differ: Make it globally accessable. If website or app create backend 
 
 Note to self: Network can be easily reasoned about by thinking of it as; instead of sending commands through the command line, we are now sending the exact same commands through the network. show image of this later
+
+# Computer Networking
+
+# Client Applications
+You have to change application depending on what platform its running on
+
+This is all stuff you can teach yourself
+* Run through the basic getting started so its not unfamiliar
+
+# Distributed Systems
