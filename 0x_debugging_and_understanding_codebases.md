@@ -9,7 +9,7 @@ So what to do?
 2. Read documentation. Look for 'README' files, etc
 2. Run tests on parts or the whole codebase __with a debugger__. In doing so, try to understand the greater system (see the Carmack video for more on this)
 
-# Debugging
+# Advanced Debugging
 All of what we learned about performing research is applicable here. The aspect of debugging we are focusing on here is in code debugging
 
 ## Logging
@@ -29,9 +29,6 @@ There are many types of tests. I would suggest only creating what you think you 
 3. End to end tests
 ...and more! (I wouldn't stress about this)
 
-If you're writing personal code, don't be too formal. Just throw an assert straight into your codebase as a sanity check.  
-
-<!-- TODO: Might want to move this to the business sections under advanced debugging? -->
 # Monitoring Your System
 This is advanced and not really something you will want in your personal projects.
 It is good to be aware of this however.

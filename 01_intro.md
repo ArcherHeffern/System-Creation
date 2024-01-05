@@ -40,8 +40,8 @@ March 7th: Module 2 Starts
 3. Mar 18. 
 4. Mar 18-2. Business 
 5. Mar 25. Business Development and DevOps
-6. Mar 25-2. Git for Collaborative Development and Developing in Large Codebases
-7. Apr 1.
+6. Mar 25-2. Git for Collaborative Development, Debugging and Developing in Large Codebases
+7. Apr 1. 
 8. Apr 1-2. 
 9. Apr 8. System Design Intro: Considerations for Large Scale software development
 10. Apr 8-2. Docker and Containerization
