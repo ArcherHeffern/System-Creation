@@ -11,16 +11,39 @@ While the tooling for many platforms is different, the logic is always the same 
 
 My goal is to make frontend seem simple, because conceptually it is. We will get little bit of experience with UI's using linux based IO. Draw connections to how other hardwares work (IOS, Android, perhaps Windows?), and how they are pretty much the same and very easy to learn. 
 
-Then we will transition to distributed Applications which introduces computer networking, basic system design, databases, API's, and web dev as an emergent property. 
+Then we will transition to distributed Applications which introduces computer networking, basic system design, databases, API's, and web dev as an emergent property.  
 
+Provide a visual of what the landscape looks like and what differs implementation to implementation: 
+
+Cool little things to make development easier:
+* Frameworks / Transpilers / Hardcore libraries that act like frameworks (react)
+* Possible problem they solve
+    * Cross platform 
+    * UI Reactivity
+    * Bootstrapping
+
+What parts are always present (albeit perhaps with different implementations):
+* Some UI solution
+* Some set of standard API's
+    * Usually Certain IO is included such as network (super important), writing files, etc
+* A language to control everything
+    * Package manager (This is more of a language feature) # What section should this be in?
 
 # Applications (Backendless)
 ## Why
+Why are we focusing on applications and not...Some other thing?
 Software development is a large place, there is so much to do. However, applications are very relevent in todays day and age.  
 Q: Why applications, why aren't we doing web development or mobile app?  
 A: They are all so similar, to specialize now would be a crime to you all  
 
 Adding computer networking 
+
+# How are we going to learn this?
+We are going to learn this from the bottom up. You will learn a lot, and what you learn much more transferrable than learning a specific framework or technology. I believe that understanding things from the bottom of the abstraction stack will also make you a much stronger developer. We will not be concerned with doing things the "correct" or "industry standary" way, at least not now. I want everyone to get a feel for what problems the frameworks solve, and be able to reflect if the frameworks are even good! I want you all to not just be able to make a website, or a desktop app, but also the tools that make those apps, and that comes from understanding the issues with them and what are your building blocks. 
+
+## What are Applications?
+...
+A lot of the research is going to be on you all, but that makes sense. I'm giving you the tools to create whatever software you would like. 
 
 ## Examples
 There are many types of business applications

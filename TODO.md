@@ -13,6 +13,7 @@
     * Stand up for yourself
 * UI / UX
 * Basic web dev
+* Concurrency??? Processes, threads, shared memory and message passing
 
 Progression: 
 Terminal Applications => Applications using Other IO / Interfaces => Distributed Applications
