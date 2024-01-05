@@ -35,18 +35,18 @@ Jan 29: First Tamid Meeting
 12. Mar 4-2. Frameworks, Compilers, and Transpilers
 
 March 7th: Module 2 Starts
-13. Mar 11.
-14. Mar 11-2.
-15. Mar 18. 
-16. Mar 18-2. Business 
-17. Mar 25. Business Development and DevOps
-18. Mar 25-2. Git for Collaborative Development and Developing in Large Codebases
-19. Apr 1.
-20. Apr 1-2. 
-21. Apr 8. System Design Intro: Considerations for Large Scale software development
-22. Apr 8-2. Docker and Containerization
-23. Apr 15. 
-24. Apr 15-2. Last day: Project showcase and Pizza
+1. Mar 11.
+2. Mar 11-2.
+3. Mar 18. 
+4. Mar 18-2. Business 
+5. Mar 25. Business Development and DevOps
+6. Mar 25-2. Git for Collaborative Development and Developing in Large Codebases
+7. Apr 1.
+8. Apr 1-2. 
+9. Apr 8. System Design Intro: Considerations for Large Scale software development
+10. Apr 8-2. Docker and Containerization
+11. Apr 15. 
+12. Apr 15-2. Last day: Project showcase and Pizza
 # Course Topics
 ## Intro
 * The big picture
