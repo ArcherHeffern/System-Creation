@@ -13,9 +13,8 @@
 
 # Course Objective
 * Provide the key skills to become self sufficient in creating and working on personal and business applications
-* Provide experience working on a personal project
+* Provide experience working on personal project and group projects
 * Understand what the next steps are
-* You will complete 2 projects. One personal and one group.
 
 # Sylabus
 Start Janurary 29th  
@@ -23,32 +22,31 @@ End April 19
 
 Jan 29: First Tamid Meeting
 1. Jan 29. Into + The big picture
-2. Jan 29-2. Researching, Learning, and Iterative development
+2. Jan 29-2. Researching, Learning, Debugging, and Iterative development
 3. Feb 5. Building Applications
-4. Feb 5-2. 
-5. Feb 12.
-6. Feb 12-2.
+4. Feb 5-2. Applications 2 and Code Reuse
+5. Feb 12. Basic Shell, Manpages and Git for Personal Development
+6. Feb 12-2. Databases
 7. Feb 19. Break!
 8. Feb 19-2. Break!
-9. Feb 26.
-10. Feb 26-2.
-11. Mar 4.
-12. Mar 4-2.
+9. Feb 26. Computer Networking and Distributed Applications  
+10. Feb 26-2. Distributed Applications 2: API's
+11. Mar 4. Web Development and HTTP
+12. Mar 4-2. Frameworks, Compilers, and Transpilers
 
 March 7th: Module 2 Starts
 13. Mar 11.
 14. Mar 11-2.
-15. Mar 18.
-16. Mar 18-2.
-17. Mar 25.
-18. Mar 25-2.
-19. Apr 1. 
-20. Apr 1-2.
-21. Apr 8.
-22. Apr 8-2.
+15. Mar 18. 
+16. Mar 18-2. Business 
+17. Mar 25. Business Development and DevOps
+18. Mar 25-2. Git for Collaborative Development and Developing in Large Codebases
+19. Apr 1.
+20. Apr 1-2. 
+21. Apr 8. System Design Intro: Considerations for Large Scale software development
+22. Apr 8-2. Docker and Containerization
 23. Apr 15. 
 24. Apr 15-2. Last day: Project showcase and Pizza
-
 # Course Topics
 ## Intro
 * The big picture
