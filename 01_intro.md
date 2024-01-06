@@ -1,20 +1,31 @@
 # Who am I
 * Archer
+* Major in CS, Minor in Business
 * Incoming at LinkedIn
 * Tamid Global Director of Tech Consulting
-* Computational neuroscience researcher in the Marder Lab
+* Computational Neuroscience researcher in the Marder Lab
 * Operating Systems TA
 * I like swimming and cooking
 
 # The Basics
 * We meet twice a week
+* Occasionally there will be office hours instead of a meeting
 * I will announce the location and time once everyone fills the when2meet
 * COSI 12b is a prerequisite 
 
 # Course Objective
+* Help students discover their interests
+* Provide an general understanding of the Software Development Landscape
 * Provide the key skills to become self sufficient in creating and working on personal and business applications
 * Provide experience working on personal project and group projects
 * Understand what the next steps are
+
+# About this Course
+* Split into 2 sections: Personal Software Development and Business Software Development
+* Start with very foundational concepts, much lower level that you will typically find, we then build up through abstractions
+* Lots of creative freedom: The world of software is a large place and I would like everyone to find out what they enjoy
+    * We will later focus on Backend Development due to it being a common Tamid Project 
+* Research and Code Heavy
 
 # Sylabus
 Start Janurary 29th  
@@ -47,26 +58,25 @@ March 7th: Module 2 Starts
 10. Apr 8-2. Docker and Containerization
 11. Apr 15. 
 12. Apr 15-2. Last day: Project showcase and Pizza
+
 # Course Topics
 ## Intro
 * The big picture
 
 ## Fundemental Skills for General Software Development
 * Iterative development
-* Basic coding
+* Writing good code 
 * Learning and researching
-* Building Basic Applications
-* Using other developers code to speed up development and/or interact with hardware: API, SDK, Libraries, Frameworks
-* Debugging
+* Building Basic Applications and API's
+* Using other developers code to speed up development: SDK, Libraries, Frameworks, and transpilers
 * Basics of Linux and Command Line
 * Basics Computer networking
-* Basics of Databases and Data modeling
-* Good coding practices
-
+* ?Basics of Databases and Data modeling?
 
 ## Industry Programming
 * Large scale software development overview
 * Project management
+* Debugging and Monitoring
 * Version control
 * Business and programming (Pirate metrics, monitoring)
 * DevOps
