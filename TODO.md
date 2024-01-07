@@ -15,6 +15,8 @@
 * Basic web dev
 * Provide references to the GNU Project for coding standards? 
 * Concurrency??? Processes, threads, shared memory and message passing
+* Review standard library? 
+* OS and SYS modules
 
 Class attendance:
 Have to put name on GitHub and resolve conflicts HAHAHA
