@@ -78,7 +78,7 @@ Iterative Development
 * What would you like to take away from this education 
 
 # Supplemental Material
-[John Carmack Starting Out Advice](https://youtu.be/HOv_dWDgIRM?si=COqyhXYT-T2U749X). John Carmack is one of the all time greats, He invented and created the First Person Shooter. He programmed Hovertank, which went on to become Wolfenstein 3D, which turned into DOOM, which spawned Quake, who’s engine led to half-life, counter strike, call of duty, and inspired every FPS you can think of. 
+[John Carmack Starting Out Advice](https://youtu.be/HOv_dWDgIRM?si=COqyhXYT-T2U749X). John Carmack is one of the all time greats, He invented and created the First Person Shooter. He programmed Hovertank / Wolfenstein 3D / DOOM, which spawned Quake, who’s engine led to half-life, counter strike, call of duty, and inspired every FPS you can think of. 
 [Pito Salas Job Hunting Tips](https://salas.com/jobs/)  
 [Pito Salas Keeping up in CS](https://salas.com/how-do-i-keep-up/)  
 [Tamid Brandeis getting a SWE / Consulting Position](https://drive.google.com/file/d/1871lktUs6u1Lbw5bZSzdPVkB_RRFjXAw/view?usp=drive_link)  

@@ -24,7 +24,11 @@ Cool little things to make development easier:
 
 What parts are always present (albeit perhaps with different implementations):
 * Some UI solution
-* Some set of standard API's
+* API's
+    * Think what application is running your program
+    * What Operating System is running your program
+    * What devices are connected to your Operating System
+    * What programs are running on the OS
     * Usually Certain IO is included such as network (super important), writing files, etc
 * A language to control everything
     * Package manager (This is more of a language feature) # What section should this be in?

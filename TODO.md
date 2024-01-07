@@ -13,7 +13,11 @@
     * Stand up for yourself
 * UI / UX
 * Basic web dev
+* Provide references to the GNU Project for coding standards? 
 * Concurrency??? Processes, threads, shared memory and message passing
+
+Class attendance:
+Have to put name on GitHub and resolve conflicts HAHAHA
 
 Progression: 
 Terminal Applications => Applications using Other IO / Interfaces => Distributed Applications
@@ -21,6 +25,11 @@ Terminal Applications => Applications using Other IO / Interfaces => Distributed
 * Mention how managing risk and complexity play a large role in business application development
     * It tends to be that a lot of the code and work we do isn't actually the actual product, but things to manage the development of the project (Most things in devops) and managing (Testing) risk
 
+* Learn how to use a debugger
+    * You are smart people with fallable memories, let the computer do the heavy lifting
+    * Especially helpful when your working in large or complex codebases
+* Have fun!
+    * I seriously mean this, programming is a lifelong journey and if its not fun, life is gonna suck
 # Things to get started with development
 * know how to make an application
 * Debugging abilities
