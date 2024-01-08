@@ -1,3 +1,30 @@
+# Interfaces and Power
+We are going to Start by learning where we get power from. How we can create anything. You’re going to make some pretty unconventional scripts, just jamming tools together with some code, and that’s amazing. Becoming refined comes later.
+
+API’s: They are the powerhouse of the world. No matter what, you will be using someone else’s technology, nobody sane is an actual purist in this profession (Try building an operating system and all the hardware from scratch! And then try getting all the tools and materials to do so by yourself as well! Oh yeah, and make sure to turn google off, that’s a tool as well!)
+
+So the only reasonable way to do anything, is by using someone else’s code.
+
+Software is a composition of building blocks - all connected together through interfaces. 
+
+- SHOW THE IMAGE: Bottom to top and provide examples and whatnot - and then node.js module dependency chart - Software to software but also can go down or up the abstraction levels
+
+— Explain API’s and whatnot
+
+Now each time you want to use an API, you are going to have to learn it, search up its documentation, which is going to be tedious. Do I really have to know every single API?? Is there any direction?! 
+
+Sort of. While software is a very complex place, with dependencies everywhere, like a hodgepodge of bricks making a semi functional wall, there are some softwares (and as such API’s) that are way more relevant, and some have such relevence that they be considered as paradigm shifters and treated as checkpoints. 
+
+These checkpoint softwares are what we will learn, as well as some more specialized softwares. We will go up the abstraction levels from OS level to Distributed applications 
+
+# TODO
+Later we will discuss, not just API’s, but conventions / standards / Patterns that lead to paradigm shifters in the ways of distributed applications. Things such as the internet or web development directly arise from standards (found as RFC’s) or general preferences. 
+
+############## 
+Learning about API’s: the API’s themselves, and Protocols/Drivers (you might need to engage your communications in a specific manner (Usually there is already software you can use to facilitate this communication)
+##############
+
+# RANDOM NOTES: IGNORE
 Start from low level=>Go to high level
 
 The concept of an API is everywhere and there might be some misconception about what it means, as it applys to many things. 
