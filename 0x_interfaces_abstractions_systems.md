@@ -1,3 +1,30 @@
+# What is programming about?
+An academic will probably say
+
+
+
+# Stuff
+When starting out, I always had these concerns:  
+
+1. Where does power come from?
+2. What is the correct way to create a program?
+3. How can I conceptualize the software world?
+
+# Systems and Interfaces
+
+Everything is interfaces
+
+Interfaces have 2 main parts: The 4 basic operations, and the protocol
+1. Open, Read, Write, and Close
+2. How you use above operations
+
+Examples: 
+
+
+Operating System Layer: 
+* IPC: Inter
+
+
 # Interfaces and Power
 We are going to Start by learning where we get power from. How we can create anything. You’re going to make some pretty unconventional scripts, just jamming tools together with some code, and that’s amazing. Becoming refined comes later.
 

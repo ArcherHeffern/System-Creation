@@ -15,9 +15,9 @@
 
 # Course Objective
 * Help students discover their interests
-* Provide an general understanding of the Software Development Landscape
-* Provide the key skills to become self sufficient in creating and working on personal and business applications
-* Provide experience working on personal project and group projects
+* Gain an general understanding of the Software Development Landscape
+* Learn how to be self sufficient
+* Gain experience working on personal project and group projects
 * Understand what the next steps are
 
 # About this Course
@@ -33,7 +33,7 @@ End April 19
 
 Jan 29: First Tamid Meeting
 1. Jan 29. Into + The big picture
-2. Jan 29-2. Researching, Learning, Debugging, and Iterative development
+2. Jan 29-2. Iterative development, Researching, Learning, and Debugging
 3. Feb 5. Building Applications
 4. Feb 5-2. Applications 2 and Code Reuse
 5. Feb 12. Basic Shell, Manpages and Git for Personal Development
