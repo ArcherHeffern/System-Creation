@@ -18,6 +18,9 @@
 * Review standard library? 
 * OS and SYS modules
 
+Second half being PM Training / General Business Development  
+
+
 Class attendance:
 Have to put name on GitHub and resolve conflicts HAHAHA
 
