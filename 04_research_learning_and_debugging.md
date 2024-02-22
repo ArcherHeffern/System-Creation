@@ -31,6 +31,9 @@ The best way to learn and debug advanced issues is by reading...
 
 ### Code
 You can often find source code for projects or libraries online. Just google for it or search on github. If you are having issues with a library in your project, look at the code!  
+
+Pro Tip: When you install packages, use libraries, etc, the code exists on your computer, so take a look at it!  
+
 [Malloc source](https://codebrowser.dev/glibc/glibc/malloc/malloc.c.html)  
 [Linux OS source](https://github.com/torvalds/linux)
 

@@ -5,18 +5,47 @@
 * Tamid Global Director of Tech Consulting
 * Computational Neuroscience researcher in the Marder Lab
 * Operating Systems TA
-* I like swimming and cooking
 
 # The Basics
 * We meet twice a week
+* There will be homework and attendence
 * Occasionally there will be office hours instead of a meeting
 * I will announce the location and time once everyone fills the when2meet
 * COSI 12b is a prerequisite 
 
+# About this Course
+1. Overview of Software Development
+2. How to be a programmer 
+3. Learn how to be an engineer
+
 # Course Objective
 * Help students discover their interests
 * Gain an general understanding of the Software Development Landscape
-* Learn how to be self sufficient
+
+* Become Programmers: Learn how to build any software
+    * Overview: What needed to make a program, basic system design, core of making a program, the program model (Input, Program, Output, Interfaces)
+    * Stringing Things together: Interface and power theory: Basic system design, intro to IPC, Learning Metas, intro to OS, Package managers, services and downloading, frameworks
+        * Core OS Interfaces (Syscalls, IPC)
+        * Higher Level Interfaces (Languages, Frameworks, Libraries, etc)
+    * Common Tools (Git, Command Line)
+    * Simplicity and Lean methodologies
+    * Problem Solving, learning, search, read code, and debug
+    * IPC and relevent Abstractions
+        * CLI Applications
+        * File patterns 
+        * GUI Applications
+        * Network Applications
+    * Common Abstractions and Patterns 
+
+* Learn a domain of your choosing
+
+* Become Engineers: Learn how to build software that stands the test of time
+    * Considerations when developing business code
+    * Overview of business development
+    * Tools (Github, Agile)
+    * Large Scale Tools: Containerization, Databases
+    * System Design
+    * Monitoring and Logging
 * Gain experience working on personal project and group projects
 * Understand what the next steps are
 
@@ -25,6 +54,7 @@
 * Start with very foundational concepts, much lower level that you will typically find, we then build up through abstractions
 * Lots of creative freedom: The world of software is a large place and I would like everyone to find out what they enjoy
     * We will later focus on Backend Development due to it being a common Tamid Project 
+* There will be homework and projects
 * Research and Code Heavy
 
 # Sylabus
@@ -49,7 +79,7 @@ March 7th: Module 2 Starts
 1. Mar 11.
 2. Mar 11-2.
 3. Mar 18. 
-4. Mar 18-2. Business 
+4. Mar 18-2. Business and Engineer considerations
 5. Mar 25. Business Development and DevOps
 6. Mar 25-2. Git for Collaborative Development, Debugging and Developing in Large Codebases
 7. Apr 1. 

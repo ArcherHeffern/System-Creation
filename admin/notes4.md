@@ -9,35 +9,6 @@ Creating Network Programs
 Using Frameworks/Libraries
 
 ==========================
-Coding: Its pretty simple - Be interested in something and code it up. Programming is supposed to be freeing. Which is why I really dislike bootcamps and people who tell you how to do things.
-
-I classify people in software into 3 categories. 
-1. The frameworker
-2. The programmer
-3. The engineer
-
-1. The frameworker just uses high level tools - Like react, and considers themselves a "react engineer". They think of learning as a 6 month endevor. They lack any deeper understanding of technology - They are pretty helpless for more than junior roles.
-2. The programmer knows true freedom. They can read code, write code, and know they can do anything. Given some time, they can get into any domain. They still sometimes use frameworks but are not defined by a single technology they use. 
-3. The engineer thinks about product. Not just about the code they create right now, but how it will evolve over time. I like to call this section - Business Code and will be the second half of our education
-
-I find majority of content you will see pushes for frameworkers. "New" techs make noise and drown out the well established technologies. We will pave over the frameworker and instead learn how to be a programmer and an engineer. 
-
-But we are going to learn about taking back your freedom.
-
-How?:
-* Striging shit together - where to get access to interfaces
-* System design
-* OS + CLI
-* Creating abstractions
-* How to learn
-
-* Indirection
-
-Other stuff to know
-* Git/github
-* Lean methodologies
-* Containerization
-* Patterns
 
 What is programming:
 // ?Input => Program => Output - Program can be conceptualized as many interfaces - in fact, input and output are also just interfaces
@@ -53,7 +24,7 @@ Go through all IPC's and system calls and then how they are used in order and ho
 3. Network
 4. Frameworks, SDK's, and Libraries
 
-// What about games IO like window and mouse / keyboard or microphone?
+// What about games IO like window and mouse / keyboard or microphone? How do we get access to peripheral hardware? 
 
 Later: Get the more in depth intuition about systems and how they work - Just tell them how to hodgepodge shit together
 ===========================
@@ -86,11 +57,12 @@ Things like react, next, flask, javascript, jest, mongodb.
 This will be more conceptual and it may be difficult to start thinking in this way. 
 
 
-1. What is code about 
+1. What is programming about...
 
 Solving Problems with: 
 Algorithms
 Data
+and translating into code. 
 
 These are the defecto standard of what programming is. However, this is very academic and does not translate very well into the real world. There are things missing.
 

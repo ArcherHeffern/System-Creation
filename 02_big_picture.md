@@ -36,10 +36,9 @@ Solo project, you will both be managing and building the project
 If its a small team, there might have a PM, a designer, a tech lead, and a few engineers who all write their own tests
 
 # What is Software Engineering
-In general, its building software for a business application  
+Very broad idea: Designing and Developing Software Solutions
 
-The median of the software depends.
-
+Many Domains: 
 * Embedded / IOT
 * Driver
 * Compilers / Interpreters
@@ -52,6 +51,12 @@ The median of the software depends.
 * Network
 * Distributed systems
 * Cloud
+
+Many Industrys:
+* Agriculture
+* Retail
+* Education
+* Etc...
 
 # Industry SWE Progression
 Junior => Recieve code specs and lots of support

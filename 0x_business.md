@@ -1,6 +1,8 @@
 # Business
 Business is at the heart of software engineering  
 
+Nobody wants to use software. They want to catch a Pokemon.
+
 We write code to solve problems and provide VALUE to clients  
 The client does not care if you use java or microservices or chatGPT  
 

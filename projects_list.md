@@ -150,6 +150,8 @@ This quite a hard dicipline, and I don't know too much about it. You can conside
 ## Data Science / Machine Learning
 ### Getting Started
 * Complete some Kaggle courses, learn a data analysis language (Python, Julia, R, Matlab), learn of the libraries avaliable, then...
+
+Once you are comfortable, search up papers on algorithms to learn theory, then try coding what you learned up. Being able to convert ideas into code is the smart part of programming. 
 * Compete in [Kaggle](https://www.kaggle.com/) 
 * Join [hackathons](https://mlh.io)
 * Do research, reach out to professors or a lab

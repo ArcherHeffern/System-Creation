@@ -8,6 +8,16 @@ __Discuss Operating System, System Calls, and API's__
 
 Also maybe SDK's?
 
+# File system
+ls
+Hidden files
+Permissions
+Hard links
+Soft links (aliases)
+Home Directory (for each user)
+Man Hier
+help
+
 # TODO
 * man command
 * package managers (apt, brew)
