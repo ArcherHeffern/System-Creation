@@ -1,5 +1,5 @@
 
-all: files files2 tamidcat
+all: files files2 tamidcat dup_uses pipe
 
 files: files.c
 	gcc -o files files.c
@@ -13,5 +13,8 @@ tamidcat: tamidcat.c
 dup_uses: dup_uses.c
 	gcc -o dup_uses dup_uses.c
 
+pipe: pipe_examples.c
+	gcc -o pipe_examples pipe_examples.c
+
 clean:
-	rm files files2 tamidcat dup_uses out.txt
+	rm out.txt files files2 tamidcat dup_uses pipe
