@@ -10,5 +10,8 @@ files2: files2.c
 tamidcat: tamidcat.c
 	gcc -o tamidcat tamidcat.c
 
-remove:
-	rm files files2 tamidcat out.txt
+dup_uses: dup_uses.c
+	gcc -o dup_uses dup_uses.c
+
+clean:
+	rm files files2 tamidcat dup_uses out.txt
