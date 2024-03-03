@@ -1,5 +1,5 @@
 # Preface
-I wrote this education for the purpose of helping students gain enough understanding and intuition of Software that they could do anything they wanted. While the end will focus a bit more on Web Development, it is done in such a way that it enhances the lessons I want to teach. 
+I wrote this education for the purpose of helping students gain enough understanding and intuition of Software that they could do anything they wanted. 
 
 People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.  - Donald Knuth
 
