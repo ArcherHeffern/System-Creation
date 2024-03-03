@@ -14,7 +14,7 @@ Warning: There is minimal error handling in this program
 */
 
 int main() {
-    char* buf = "What in the world is going on\n";
+    char* buf = "Hello world\n";
     int size = strlen(buf);
     int f = open(OUTFILE, O_CREAT|O_RDWR);
     if (write(f, buf, size) == -1) {
