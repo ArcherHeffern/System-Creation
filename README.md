@@ -3,7 +3,7 @@ I wrote this education for the purpose of helping students gain enough understan
 
 People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.  - Donald Knuth
 
-The development of software is also the same. No matter what you are going to be using someone else software, or hardware and its going to be messy. Thats not to say there aren't checkpoints where there is an invention so pivotal and so foundational that we can just learn the one thing and build from there. 
+The development of software is also the same. No matter what you are going to be using someone else software, or hardware. So where do we start? Is there even a start? Well...not really, but its not hopeless. Instead, we will start with a specific revolutionary technology which almost everything in engineering builds off of, the Operating System. 
 
 We are going to learn in depth the foundational API's. Starting from the OS level, working our way up building applications and later distributed applications with them, and then delving into the world of networking and even more complicated distributed applications that come with it.
 
