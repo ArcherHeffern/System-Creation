@@ -2,8 +2,8 @@
 #include <sys/wait.h>
 #include <string.h>
 #include <unistd.h>
-#include <signal.h>
 #include <stdlib.h>
+#include <signal.h>
 
 void yes();
 void yes2();
