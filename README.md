@@ -5,7 +5,7 @@ I wrote this education for the purpose of helping students gain enough understan
 
 The development of software is also the same. No matter what you are going to be using someone else software, or hardware. So where do we start? Is there even a start? Well...not really, but its not hopeless. Instead, we will start with a specific revolutionary technology which almost everything in engineering builds off of, the Operating System. 
 
-We are going to learn in depth the foundational API's. Starting from the OS level, working our way up building applications and later distributed applications with them, and then delving into the world of networking and even more complicated distributed applications that come with it.
+We are going to learn in depth the foundational API's. Starting from the OS level, harnessing its power in single process applications using System Calls, then multiprocess with IPC, build distributed applications with computer networking and learn about how many of the abstractions we take for granted work.
 
 Core things when doing a project:
 * Know the language
