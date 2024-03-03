@@ -1,7 +1,7 @@
 # Preface
 I wrote this education for the purpose of helping students gain enough understanding and intuition of Software that they could do anything they wanted. 
 
-People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.  - Donald Knuth
+> People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.  - Donald Knuth
 
 The development of software is also the same. No matter what you are going to be using someone else software, or hardware. So where do we start? Is there even a start? Well...not really, but its not hopeless. Instead, we will start with a specific revolutionary technology which almost everything in engineering builds off of, the Operating System. 
 
