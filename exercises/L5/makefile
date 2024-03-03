@@ -1,20 +1,32 @@
 
-all: files files2 tamidcat dup_uses pipe
+all: files files2 tamidcat dup_examples dup_solution pipe_examples pipe_solution signal_example signal_solution
 
-files: files.c
-	gcc -o files files.c
+files: file_examples.c
+	gcc -o file_examples file_examples.c
 
-files2: files2.c
-	gcc -o files2 files2.c
+files2: files_examples2.c
+	gcc -o files_examples2 files_examples2.c
 
-tamidcat: tamidcat.c
-	gcc -o tamidcat tamidcat.c
+tamidcat: file_solution.c
+	gcc -o file_solution file_solution.c
 
-dup_uses: dup_uses.c
-	gcc -o dup_uses dup_uses.c
+dup_examples: dup_examples.c
+	gcc -o dup_examples dup_examples.c
 
-pipe: pipe_examples.c
+dup_solution: dup_solution.c
+	gcc -o dup_solution dup_solution.c
+
+pipe_examples: pipe_examples.c
 	gcc -o pipe_examples pipe_examples.c
 
+pipe_solution: pipe_solution.c
+	gcc -o pipe_solution pipe_solution.c
+
+signal_example: signal_example.c
+	gcc -o signal_example signal_example.c
+
+signal_solution: signal_solution.c
+	gcc -o signal_solution signal_solution.c
+
 clean:
-	rm out.txt files files2 tamidcat dup_uses pipe
+	rm out.txt file_examples files_examples2 file_solution dup_examples dup_solution pipe_examples pipe_solution signal_example signal_solution
