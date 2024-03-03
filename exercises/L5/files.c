@@ -17,9 +17,6 @@ int main() {
     char* buf = "Hello world\n";
     int size = strlen(buf);
     int f = open(OUTFILE, O_CREAT|O_RDWR);
-    if (write(f, buf, size) == -1) {
-        perror("Writing");
-        exit(ERR_WRITE);
-    }
+    write(f, buf, size);
     close(f);
 }
