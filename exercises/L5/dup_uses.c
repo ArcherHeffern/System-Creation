@@ -30,6 +30,10 @@ int dup_files() {
     int f = open("out.txt", O_RDONLY|O_TRUNC|O_CREAT);
     int f2 = dup(f);
     // Now we can write to out.txt using f or f2
+
+    // Now lets say we want f and f2 to not exist in a child process should we fork/exec, we can use fcntl to modify this setting
+    fcntl(f, FD_CLOEXEC);
+    fcntl(f2, FD_CLOEXEC);
 }
 
 /*
