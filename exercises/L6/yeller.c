@@ -29,7 +29,7 @@ int main() {
     sock.sin_family = AF_INET;
     sock.sin_port = htons(8080);
     sock.sin_addr.s_addr = htonl(INADDR_LOOPBACK);
-    if (bind(s, (struct sockaddr_in *) &sock, sizeof(sock)) == -1) {
+    if (bind(s, (struct sockaddr *) &sock, sizeof(sock)) == -1) { // corrected cast
         perror("Bind");
         exit(ERR_BIND);
     }
@@ -43,10 +43,11 @@ int main() {
     int remote;
 
     // ... and accept 1 connection
-    if ((remote = accept(s, (struct sockaddr_in *)&s_acc, &s_acc_size)) == -1) {
+    if ((remote = accept(s, (struct sockaddr *) &s_acc, &s_acc_size)) == -1) { // corrected cast
         perror("Accept");
         exit(ERR_ACCEPT);
     }
+    printf("Accepted Request\n");
 
     // Read its input, and YELL it back
     char buffer[BUFSIZE];
@@ -54,7 +55,7 @@ int main() {
     buffer[n] = 0;
     stou(buffer);
     write(remote, buffer, n);
-    shutdown(n, SHUT_RDWR);
+    shutdown(remote, SHUT_RDWR); // corrected argument
     close(s);
 }
 
