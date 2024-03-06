@@ -1,3 +1,5 @@
+# Note: The education is currently being fully rewritten to be way more hands on: All of the slides, Homeworks, and Projects will be Public by the end of the semester. The Code Examples are in the exercises folder in folders prefixed with L
+
 # Preface
 I wrote this education for the purpose of helping students gain enough understanding and intuition of Software that they could do anything they wanted. 
 
