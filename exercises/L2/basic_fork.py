@@ -4,7 +4,9 @@ from os import fork
 
 pid = fork()
 
-if (pid == 0): # In child process
+if pid < 0:
+    print("Error Forking")
+elif (pid == 0): 
     print("This is child process")
-else: # In parent process
-    print("This is parent process")
+else:
+    print("This is parent process, the child process has id: %d" % pid)
