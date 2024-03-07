@@ -1,1 +1,4 @@
 process_components
+test
+test.c
+threading
