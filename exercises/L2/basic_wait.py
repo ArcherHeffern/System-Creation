@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from os import wait, fork 
+from os import wait, fork, waitstatus_to_exitcode
 from time import sleep
 
 pid = fork()
@@ -11,6 +11,8 @@ if pid == 0:
         sleep(.5)
         print(f"\r{i}", end="")
     print()
+    exit(1)
 else:
-    wait()
+    pid, status = wait()
     print("And then the parent runs...")
+    print(f"Child exited with status: {waitstatus_to_exitcode(status)}")
