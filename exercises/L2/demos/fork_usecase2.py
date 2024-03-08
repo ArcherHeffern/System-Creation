@@ -2,40 +2,22 @@
 
 from time import sleep
 from random import randint
-from sys import argv
-from os import fork, wait
+from os import fork
 from pathlib import Path
 
 # Parallel processing Example
 # For performance improvements
 # Processes many files using 1 process per file 
+# See the follow up to this in compression.py
 
-EXT_ERR_NOT_ENOUGH_ARGS = 1
+FILES = ["a.txt", "b.txt", "c.txt"]
 
 def main():
-    # Argument parsing
-    if '-w' in argv:
-        start = 2
-        _wait = True
-    else:
-        start = 1
-        _wait = False
-    if len(argv) <= start:
-        print("Usage: fork_usecase2.py [-w] files ...")
-        exit(EXT_ERR_NOT_ENOUGH_ARGS)
-
-    # Parallel processing
-    for i in range(start, len(argv)):
-        filename = argv[i]
-        if Path(filename).is_file() and fork() == 0:
-            process_file(filename)
+    for file in FILES:
+        if Path(file).is_file() and fork() == 0:
+            process_file(file)
             exit(0)
     
-    # To wait or not to wait, that is the question...
-    if _wait:
-        wait()
-        print("Completed processing")
-
 
 def process_file(filename):
     """Imagine this is a long running task"""
