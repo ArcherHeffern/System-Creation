@@ -13,5 +13,9 @@ while True:
         exit(0)
 
     if fork() == 0:
-        execvp(command, commands)
+        try:
+            execvp(command, commands)
+        except:
+            print("Invalid command [%s]" % command)
+        exit(1)
     wait()
