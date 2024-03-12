@@ -1,1 +1,3 @@
-run `make` to compile all files
+`make` to compile all files  
+
+`make clean` to remove all executables
