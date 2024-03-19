@@ -16,7 +16,6 @@ typedef struct {
 Book database[MAX_BOOKS];
 int current_id = 0;
 
-// Create a new person
 int create_book(char* name, char* contents) {
     if (current_id == MAX_BOOKS) {
         printf("Database is full.\n");
@@ -32,7 +31,6 @@ int create_book(char* name, char* contents) {
     return new_book.id;
 }
 
-// Read (get) a person by ID
 Book* get_book(int id) {
     for (int i = 0; i < current_id; i++) {
         if (database[i].id == id) {
@@ -42,7 +40,6 @@ Book* get_book(int id) {
     return NULL;
 }
 
-// Update a person
 void update_book(int id, char* name, char* contents) {
     Book* person = get_book(id);
     if (person != NULL) {
@@ -75,7 +72,7 @@ void delete_book(int id) {
 
 // List all people
 void list_books() {
-    printf("List of people:\n");
+    printf("List of Books:\n");
     for (int i = 0; i < current_id; i++) {
         printf("ID: %d, Name: %s, Contents: %s\n", database[i].id, database[i].name, database[i].contents);
     }

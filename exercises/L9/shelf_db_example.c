@@ -1,29 +1,6 @@
 #include <stdio.h>
 #include <string.h>
 
-/*
-This is a very basic example and lacks many features of a real database, such as persistent storage, error handling, and efficient searching mechanisms. However, it demonstrates the core idea of CRUD operations on a simple data structure in C.
-
-Improvements: 
-1. Implement missing methods
-2. Implement multiple data types
-2. Implement creation of any data types
-2. Relationship between multiple data types
-2. Implement persistance - single data type
-    * Store to file between operations
-    * Load from file
-3. Implement multiple data types
-4. Implement user Interface
-
-5. More advanced querying
-6. Faster querying
-
-Advanced Features: 
-- Error recovery
-- Btrees
-- Daemonize
-*/
-
 #define MAX_BOOKS 10
 
 typedef struct {
@@ -35,7 +12,6 @@ typedef struct {
 Book database[MAX_BOOKS];
 int current_id = 0;
 
-// Create a new person
 int create_book(char* name, char* contents) {
     if (current_id == MAX_BOOKS) {
         printf("Database is full.\n");
@@ -52,15 +28,17 @@ int create_book(char* name, char* contents) {
 }
 
 // Read (get) a book by ID
-Book* read_person(int id) {
+Book* read_book(int id) {
     return NULL;
 }
 
 void update_book(int id, char* name, char* contents) {
+    printf("Update Book not Implemented\n");
     return NULL;
 } 
 
 int delete_book(int id) {
+    printf("Delete Book not Implemented\n");
     return NULL;
 }
 
@@ -73,16 +51,15 @@ void list_books() {
 }
 
 int main() {
-    // TODO: Create User Interface
-    create_person("Alice", 30);
-    create_person("Bob", 25);
-    list_people();
+    create_book("Fish", "1 Fish 2 Fish Red Fish Blue Fish");
+    create_book("Bob", "Hello my name is bob and this is my book");
+    list_books();
 
-    update_person(0, "Alice Smith", 31);
-    list_people();
+    update_book(0, "Alice Smith", "This me book by Alice");
+    list_books();
 
-    delete_person(1);
-    list_people();
+    delete_book(1);
+    list_books();
 
     return 0;
 }
