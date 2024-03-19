@@ -1,8 +1,10 @@
+# Author: Ming Wang 
+# Github: https://github.com/MingCWang
 import csv
 
 number_of_reservations = 0
 
-with open("reservations.csv", "r") as file:
+with open("reservations.csv", "rx") as file:
     reader = csv.reader(file)
     for row in reader:
         number_of_reservations = len(list(reader))
@@ -30,7 +32,6 @@ def main():
     exit = True
     while exit:
         command = input("Enter a command: ")
-        command = command[8:]
         action = command.split(" ")[0]
         if action == "create":
             create()
