@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// TODO: Write a struct to a binary file
 int main() {
     // Define and initialize the array
     int numbers[] = {1, 2, 3, 4, 5};
