@@ -10,30 +10,30 @@ This is a very basic example and lacks many features of a real database, such as
 typedef struct {
     int id;
     char name[50];
-    int age;
+    char contents[1024];
 } Book;
 
 Book database[MAX_BOOKS];
 int current_id = 0;
 
 // Create a new person
-int create_person(char* name, int age) {
+int create_book(char* name, char* contents) {
     if (current_id == MAX_BOOKS) {
         printf("Database is full.\n");
         return -1;
     }
 
-    Book new_person;
-    new_person.id = current_id;
-    strcpy(new_person.name, name);
-    new_person.age = age;
+    Book new_book;
+    new_book.id = current_id;
+    strcpy(new_book.name, name);
+    strcpy(new_book.contents, contents);
 
-    database[current_id++] = new_person;
-    return new_person.id;
+    database[current_id++] = new_book;
+    return new_book.id;
 }
 
 // Read (get) a person by ID
-Book* get_person(int id) {
+Book* get_book(int id) {
     for (int i = 0; i < current_id; i++) {
         if (database[i].id == id) {
             return &database[i];
@@ -43,19 +43,18 @@ Book* get_person(int id) {
 }
 
 // Update a person
-void update_person(int id, char* name, int age) {
-    Book* person = get_person(id);
+void update_book(int id, char* name, char* contents) {
+    Book* person = get_book(id);
     if (person != NULL) {
         strcpy(person->name, name);
-        person->age = age;
+        strcpy(person->contents, contents);
         printf("Book with ID %d updated.\n", id);
     } else {
         printf("Book with ID %d not found.\n", id);
     }
 }
 
-// Delete a person
-void delete_person(int id) {
+void delete_book(int id) {
     int found = 0;
     for (int i = 0; i < current_id; i++) {
         if (database[i].id == id) {
@@ -75,23 +74,23 @@ void delete_person(int id) {
 }
 
 // List all people
-void list_people() {
+void list_books() {
     printf("List of people:\n");
     for (int i = 0; i < current_id; i++) {
-        printf("ID: %d, Name: %s, Age: %d\n", database[i].id, database[i].name, database[i].age);
+        printf("ID: %d, Name: %s, Contents: %s\n", database[i].id, database[i].name, database[i].contents);
     }
 }
 
 int main() {
-    create_person("Alice", 30);
-    create_person("Bob", 25);
-    list_people();
+    create_book("Fish", "1 Fish 2 Fish Red Fish Blue Fish");
+    create_book("Bob", "Hello my name is bob and this is my book");
+    list_books();
 
-    update_person(0, "Alice Smith", 31);
-    list_people();
+    update_book(0, "Alice Smith", "This me book by Alice");
+    list_books();
 
-    delete_person(1);
-    list_people();
+    delete_book(1);
+    list_books();
 
     return 0;
 }
