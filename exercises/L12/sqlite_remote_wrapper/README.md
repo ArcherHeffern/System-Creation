@@ -1,5 +1,5 @@
 # Dependencies
-Install the [SQLite amalgamation-3450200.zip source code](https://www.sqlite.org/download.html)
+Install [SQLite amalgamation-3450200.zip source code](https://www.sqlite.org/download.html) and unzip into this directory
 
 # Compile
 `gcc -o sqlite_wrapper sqlite_wrapper.c sqlite-amalgamation-3450200/sqlite3.c`
@@ -12,7 +12,7 @@ Connect to the sqlite server using netcat...
 ```bash
 nc 127.0.0.1 5433
 ```
-And type in commands. The server has a default table called Users with some data filled in. 
+You can now make SQL queries remotely. The server has a default table called Users with some data filled in. 
 
 # Sources
 - https://www.sqlite.org/cintro.html
