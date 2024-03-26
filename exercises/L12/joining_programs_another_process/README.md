@@ -18,7 +18,7 @@ systemctl status postgresql
 get terminal access to postgres 
 ```bash
 sudo su postgres;
-psql
+psql;
 ```
 and set password to password
 ```
