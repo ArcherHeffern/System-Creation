@@ -1,0 +1,1 @@
+gcc -I/usr/include/postgresql -o bank bank.c -lpq && ./bank
