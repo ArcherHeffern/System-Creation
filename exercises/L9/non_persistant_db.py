@@ -2,7 +2,6 @@
 
 """
 TODO:
--- Error handling
 -- Improve Reservation Dataclass datatypes
 
 Version 0.1.0 Ming Wang 
@@ -10,6 +9,8 @@ Version 0.1.0 Ming Wang
 -- Persistant CSV tabular DBMS
 Version 0.2.0 Archer Heffern 
 -- Removed Persistance
+Version 0.3.0 Archer Heffern
+-- Error handling, meta commands, and more database esq user flow
 """
 
 from dataclasses import dataclass 
@@ -19,6 +20,7 @@ import pprint
 reservation_database: list['Reservation'] = []
 
 RESERVATION_NOT_FOUND = "Reservation Not Found"
+RESERVATIONS_NAME = "Reservations"
 
 @dataclass
 class Reservation:
@@ -29,62 +31,93 @@ class Reservation:
     party_size: int
     reservation_notes: str
 
+def print_help():
+    print("""
+       Commands:
+        CREATE <field1 ...>                 Create a new reservation.
+        SEARCH <name>      	      	        Search reservation by last name.
+        UPDATE <name> <type> <change> 	    Update reservation by last name.
+        CANCEL <name>          	 	        Cancel reservation by last name.
+        RESERVATIONS                  		List all active reservations.
+        .help                               Show this list of commands.
+        .exit                          	    Close this program and save updates.
+        .schema <tablename>                 Shows schema for a table.
+        .tables                             Lists names of all tables.
+      
+       """)
+
+def print_tables():
+    print(RESERVATIONS_NAME)
+
+def print_schema(tokens):
+    if len(tokens) != 2:
+        print("Usage: .schema <schema>")
+        return
+    schema = tokens[1]
+    if schema == RESERVATIONS_NAME:
+        print(f"__{RESERVATIONS_NAME}__\n{list_types()}")
+    else:
+        print(f"Schema {schema} not found")
+
+def handle_metacommand(command, tokens):
+    match command:
+        case ".help":
+            print_help()
+        case ".exit":
+            print("Exiting...")
+            exit(0)
+        case ".schema":
+            if len(tokens) < 2:
+                print("Usage: .schema <tablename>")
+            print_schema(tokens)
+        case ".tables":
+            print_tables()
+        case _:
+            print("Metacommand not found")
 
 def main():
     print("welcome to the reservation system!")
-    cmds = """
-       Usage:  
-         execute <command> [options]
+    print(".help to show help")
 
-
-       Commands:
-         create                     	    	Create a new reservation.
-         search <last name>          	      	Search reservation by last name.
-         update <last name> <type> <change> 	Update reservation by last name.
-         cancel <last name>          	 	Cancel reservation by last name.
-         reservations                  		List all active reservations.
-         types                              List types used in update.
-         help                          		Show this list of commands.
-         exit                          		Close this program and save updates.
-      
-       """
-
-    print(cmds)
     while True:
-        command = input("Enter a command: ")
+        command = input("> ")
         tokens = command.split(" ")
-        action = tokens[0]
-        if action == "create":
-            create()
-        elif action == "search":
-            search(tokens)
-        elif action == "update":
-            update(tokens)
-        elif action == "cancel":
-            cancel(tokens)
-        elif action == "reservations":
-            reservations()
-        elif action == "types":
-            list_types()
-        elif action == "help":
-            print(cmds)
-        elif action == "exit":
-            break
-        else:
-            print("Invalid command")
+        action = tokens[0].lower()
 
-        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        if action == "":
+            continue
 
-    print("Changes saved, thank you for using the reservation system!")
+        if action.startswith("."):
+            handle_metacommand(action, tokens)
+            continue
+
+        match action:
+            case "create":
+                create(tokens)
+            case "search":
+                search(tokens)
+            case "update":
+                update(tokens)
+            case "cancel":
+                cancel(tokens)
+            case "reservations":
+                reservations()
+            case "types":
+                list_types()
+            case _:
+                print("Invalid command")
 
 
-def create():
-    last_name = input("Enter last name (string: Any): ")
-    phone_number = input("Enter phone number (string: xxx-xxx-xxxx): ")
-    reservation_date = input("Enter reservation date (string: yyyy-mm-dd): ")
-    reservation_time = input("Enter reservation time (string: hh-mm): ")
-    party_size = input("Enter party size (integer: Any): ")
-    reservation_notes = input("Enter reservation notes (string: Any): ")
+def create(tokens: list[str]):
+    if len(tokens) != 7:
+        print("Creating a reservation requires 7 fields")
+        return
+    last_name = tokens[1]
+    phone_number = tokens[2]
+    reservation_date = tokens[3]
+    reservation_time = tokens[4]
+    party_size = tokens[5]
+    reservation_notes = tokens[6]
 
     reservation = Reservation(
         last_name,
@@ -137,11 +170,11 @@ def update(tokens: list[str]):
     setattr(reservation_database[index], field, change)
 
 def list_types():
-    print("\t".join([field.name for field in dataclasses.fields(Reservation)]))
+    return "\n".join([field.name for field in dataclasses.fields(Reservation)])
 
 def cancel(tokens: list[str]):
     if len(tokens) != 2:
-        print("Usage: cancel last_name")
+        print("Usage: CANCEL last_name")
         return
     last_name = tokens[1]
     index = select(last_name)
