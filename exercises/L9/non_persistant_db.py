@@ -31,49 +31,6 @@ class Reservation:
     party_size: int
     reservation_notes: str
 
-def print_help():
-    print("""
-       Commands:
-        CREATE <field1 ...>                 Create a new reservation.
-        SEARCH <name>      	      	        Search reservation by last name.
-        UPDATE <name> <type> <change> 	    Update reservation by last name.
-        CANCEL <name>          	 	        Cancel reservation by last name.
-        RESERVATIONS                  		List all active reservations.
-        .help                               Show this list of commands.
-        .exit                          	    Close this program and save updates.
-        .schema <tablename>                 Shows schema for a table.
-        .tables                             Lists names of all tables.
-      
-       """)
-
-def print_tables():
-    print(RESERVATIONS_NAME)
-
-def print_schema(tokens):
-    if len(tokens) != 2:
-        print("Usage: .schema <schema>")
-        return
-    schema = tokens[1]
-    if schema == RESERVATIONS_NAME:
-        print(f"__{RESERVATIONS_NAME}__\n{list_types()}")
-    else:
-        print(f"Schema {schema} not found")
-
-def handle_metacommand(command, tokens):
-    match command:
-        case ".help":
-            print_help()
-        case ".exit":
-            print("Exiting...")
-            exit(0)
-        case ".schema":
-            if len(tokens) < 2:
-                print("Usage: .schema <tablename>")
-            print_schema(tokens)
-        case ".tables":
-            print_tables()
-        case _:
-            print("Metacommand not found")
 
 def main():
     print("welcome to the reservation system!")
@@ -106,6 +63,53 @@ def main():
                 list_types()
             case _:
                 print("Invalid command")
+
+
+def print_help():
+    print("""
+       Commands:
+        CREATE <field1 ...>                 Create a new reservation.
+        SEARCH <name>      	      	        Search reservation by last name.
+        UPDATE <name> <type> <change> 	    Update reservation by last name.
+        CANCEL <name>          	 	        Cancel reservation by last name.
+        RESERVATIONS                  		List all active reservations.
+        .help                               Show this list of commands.
+        .exit                          	    Close this program and save updates.
+        .schema <tablename>                 Shows schema for a table.
+        .tables                             Lists names of all tables.
+      
+       """)
+
+
+def print_tables():
+    print(RESERVATIONS_NAME)
+
+
+def print_schema(tokens):
+    if len(tokens) != 2:
+        print("Usage: .schema <schema>")
+        return
+    schema = tokens[1]
+    if schema == RESERVATIONS_NAME:
+        print(f"__{RESERVATIONS_NAME}__\n{list_types()}")
+    else:
+        print(f"Schema {schema} not found")
+
+def handle_metacommand(command, tokens):
+    match command:
+        case ".help":
+            print_help()
+        case ".exit":
+            print("Exiting...")
+            exit(0)
+        case ".schema":
+            if len(tokens) < 2:
+                print("Usage: .schema <tablename>")
+            print_schema(tokens)
+        case ".tables":
+            print_tables()
+        case _:
+            print("Metacommand not found")
 
 
 def create(tokens: list[str]):
