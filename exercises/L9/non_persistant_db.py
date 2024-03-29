@@ -103,8 +103,6 @@ def handle_metacommand(command, tokens):
             print("Exiting...")
             exit(0)
         case ".schema":
-            if len(tokens) < 2:
-                print("Usage: .schema <tablename>")
             print_schema(tokens)
         case ".tables":
             print_tables()
