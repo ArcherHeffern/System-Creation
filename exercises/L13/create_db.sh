@@ -1,26 +1,26 @@
 sql_commands=$(cat <<EOF
-Create table If Not Exists Employees (id int, name varchar(20));
-Create table If Not Exists EmployeeUNI (id int, unique_id int);
-delete from Employees;
-insert into Employees (id, name) values ('1', 'Alice');
-insert into Employees (id, name) values ('7', 'Bob');
-insert into Employees (id, name) values ('11', 'Meir');
-insert into Employees (id, name) values ('90', 'Winston');
-insert into Employees (id, name) values ('3', 'Jonathan');
-delete from EmployeeUNI;
-insert into EmployeeUNI (id, unique_id) values ('3', '1');
-insert into EmployeeUNI (id, unique_id) values ('11', '2');
-insert into EmployeeUNI (id, unique_id) values ('90', '3');
+Create table If Not Exists User (id INT, name VARCHAR(20));
+Create table If Not Exists Account (id INT, user_id INT, balance INT);
+delete from User;
+INSERT INTO User VALUES (0, 'Timmy');
+INSERT INTO User VALUES (1, 'Sarah');
+INSERT INTO User VALUES (2, 'Mancy');
+delete from Account;
+INSERT INTO Account VALUES (0, 0, 500);
+INSERT INTO Account VALUES (1, 0, -100);
+INSERT INTO Account VALUES (2, 1, 300);
 EOF
 )
 dbname="LC"
 
 
 if [ -e $dbname ]; then
-    read -p "Warning, $dbname exists, are you sure you want to override it?" out
-    if [ $out != "n" ]; then
+    read -p "Warning, $dbname exists, are you sure you want to override it (y/n)? " out
+    if [ $out != "y" ]; then
+        echo "Exiting"
         exit 1
     fi
+    rm $dbname
 fi
-
 echo "$sql_commands" | sqlite3 $dbname
+echo "run \`sqlite3 ${dbname}\` to interact with database"
