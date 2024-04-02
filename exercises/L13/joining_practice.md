@@ -35,12 +35,15 @@ Execute `./create_db.sh` to create the tables
 ## Example 2
 Account Table
 | account_id | username | 
+| --- | --- |
 
 Product Table
 | product_id | name | 
+| --- | --- |
 
 Transaction Table  
 | transaction_id | product_id | account_id | price |   
+| --- | --- | --- | 
 
 Create a new table with the fields Account.username, Product.name, and Transaction.price  
 
