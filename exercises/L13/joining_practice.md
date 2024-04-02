@@ -42,8 +42,8 @@ Product Table
 | --- | --- |
 
 Transaction Table  
-| transaction_id | product_id | account_id | price | 
-| --- | --- | --- | 
+| transaction_id | product_id | account_id | price |
+| --- | --- | --- | --- | 
 
 Create a new table with the fields Account.username, Product.name, and Transaction.price  
 
