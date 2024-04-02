@@ -45,7 +45,7 @@ Transaction Table
 | transaction_id | product_id | account_id | price |
 | --- | --- | --- | --- | 
 
-Create a new table with the fields Account.username, Product.name, and Transaction.price  
+Create a new table with the fields Account.username, Product.name, and Product.price  
 
 Execute `./create_db2.sh` to create the tables  
 
@@ -60,3 +60,14 @@ SELECT name, Account.balance FROM User INNER JOIN Account ON User.id = Account.u
 | Sarah | 300 |
 
 ## Example 2
+SELECT Account.username, Product.name, Product.price FROM _Transaction \
+INNER JOIN Account ON Account.account_id = _Transaction.account_id \
+INNER JOIN Product ON Product.product_id = _Transaction.product_id;
+
+| username | name | price | 
+| --- | --- | --- |
+| Timmy | Tomato | 10 |
+| Timmy | Apple | 15 |
+| Sarah | Apple | 15 |
+| Sarah | Car | 10000 | 
+| Bonnie | Car | 10000 |  
