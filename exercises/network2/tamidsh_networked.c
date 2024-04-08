@@ -48,6 +48,8 @@ int main() {
 			}
 			printf("Exiting...\n");
 			exit(EXT_SUCCESS);
+		} else {
+			close(client);
 		}
 	}
 }
