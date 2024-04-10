@@ -16,7 +16,7 @@ def server_listen(host: str, port: int, backlog: int) -> socket|None:
         s.bind((host, port))
         s.listen(backlog)
     except Exception as e:
-        print(e, file=stderr)
+        print(f"Exception: {str(e)}", file=stderr)
         return None
     return s
 

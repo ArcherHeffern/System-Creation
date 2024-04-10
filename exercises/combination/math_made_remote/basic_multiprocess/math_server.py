@@ -1,4 +1,5 @@
 from os import read, write
+import signal
 from sock_util import *
 import math
 from dataclasses import dataclass
@@ -6,6 +7,8 @@ from dataclasses import dataclass
 __all__ = [
     "handle"
 ]
+
+signal.signal(signal.SIGINT, lambda *x: exit(0))
 
 @dataclass
 class Error:
@@ -19,19 +22,25 @@ NOT_ENOUGH_ARGUMENTS = "Not enough arguments: expected %s, found %s"
 VALUE_ERROR = "Value Error: Expected string but got \"%s\""
 UNKNOWN_COMMAND = "Unknown Command: %s" 
 
-def main():
-    s = server_connect("127.0.0.1", 8080)
-    while True:
-        server_accept()
-        while (True):
+addr = "127.0.0.1"
+port = 8080
 
-            tokens = s.recv(1024).decode().split()
+def main():
+    s = server_listen(addr, port, 5)
+    if s is None:
+        print("Null socket")
+        return
+    print(f"Listening to {addr}:{port}")
+    while True:
+        client = server_accept(s)
+        while (True):
+            tokens = client.recv(1024).decode().split()
             if len(tokens) == 0:
                 continue
             command = tokens[0]
             match command:
                 case "help":
-                    s.send(__print_help().encode())
+                    client.sendall(__print_help().encode())
                     continue
                 case "floor":
                     result = __handle_floor(tokens)
@@ -47,7 +56,9 @@ def main():
                 msg = f"error: {result.error_message}"
             else:
                 msg = f"success: {result.success_message}"
-            s.send(msg.encode())
+            client.sendall(msg.encode())
+        server_close(client)
+    server_close(s)
 
 def __print_help() -> str:
     return  """
