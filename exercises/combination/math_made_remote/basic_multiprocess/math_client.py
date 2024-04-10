@@ -1,12 +1,16 @@
-from os import write, read
+from sock_util import *
 
-def handle(p_read, p_write):
-    print("`help` for a help menu")
-    while True:
-        user_input = input("> ")
-        if user_input == "exit":
-            break
-        write(p_write, user_input.encode())
-        remote_result = read(p_read, 1024).decode()
-        print(f"Remote: {remote_result}")
-    print("Exiting...")
+
+print("`help` for a help menu")
+s = server_connect("127.0.0.1", 8080)
+while True:
+    # User Interface
+    user_input = input("> ")
+    if user_input == "exit":
+        break
+
+    s.send(user_input.encode())
+    remote_result = s.recv(1024).decode()
+    print(f"Remote: {remote_result}")
+server_close(s)
+print("Exiting...")
