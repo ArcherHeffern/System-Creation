@@ -4,7 +4,7 @@ paths: list[str] =glob.glob("raylib-5.0*")
 cleaned_paths = [path for path in paths if not path.endswith(".tar") and not path.endswith(".gz")]
 if len(cleaned_paths) == 0:
     if len(paths) != 0:
-        print("Raylib gzip or tar was found but no raylib. Please unzip (gunzip <file>) and untar (tar -xf <file>) before proceeding", file=stderr)
+        print("Raylib gzip or tar was found but no raylib. Please unzip (gunzip <directory>) and untar (tar -xf <directory>) before proceeding", file=stderr)
         exit(1)
     print("No raylib found - please install the correct version from https://github.com/raysan5/raylib/releases", file=stderr)
     exit(1)
