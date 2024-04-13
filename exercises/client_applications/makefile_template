@@ -1,0 +1,6 @@
+CC = gcc
+CFLAGS = -Wall -I{}/include
+LDFLAGS = -L{}/lib -lraylib
+
+game: game.c
+	$(CC) $(CFLAGS) -o game game.c $(LDFLAGS)
