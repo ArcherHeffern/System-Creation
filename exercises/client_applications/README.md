@@ -2,10 +2,7 @@
 Raylib is a full blown game development library and almost a game engine for c
 
 # Getting Started
-1. Install [Raylib](https://github.com/raysan5/raylib/releases)
-2. Move Raylib to this project folder, untar and unzip it
-3. Run `python update.py` and follow its instructions
-4. Make sure to set the environment variable at the end!
+1. Run `python configure.py` and follow its instructions to install raylib
 
 # Sources
 - [Raylib](https://www.raylib.com/index.html)
