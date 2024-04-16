@@ -20,7 +20,7 @@ ext = ".tar.gz"
 for i, opt in enumerate(options):
 	print("%d) %s" % (i, opt))
 v = None
-while not v:
+while v is None:
 	try:
 		tmp = input("> ")
 		if tmp in ["q", "quit", "exit"]:
@@ -34,8 +34,7 @@ while not v:
 name = options[v]
 url = pre + name + ext
 
-system("rm -rf %s" % name)
-
+system("rm -rf %s > /dev/null 2>&1" % name)
 print("Downloading raylib")
 system("curl -L -o %s -s %s" % (name + ext, url))
 
@@ -48,16 +47,21 @@ system("gunzip %s" % name + ext)
 system("tar xf *.tar")
 system("rm *.tar")
 
+system("rm game > /dev/null 2>&1")
+
 with open("makefile", "w+") as outf, open("makefile_template", "r") as inf:
     lns = inf.readlines()
     lns = [line.replace("{}", name) for line in lns]
     outf.writelines(lns)
 
 print()
-print("If you are on macos run the following")
-print("export DYLD_LIBRARY_PATH=raylib-5.0_macos/lib:$DYLD_LIBRARY_PATH")
-print("If you are on linux/WSL install the following")
-print("export LD_LIBRARY_PATH=%s/lib:$LD_LIBRARY_PATH")
+if re.search("macos", name, flags=re.I) is not None:
+	print("If you are on macos run the following:")
+	print("export DYLD_LIBRARY_PATH=%s/lib:$DYLD_LIBRARY_PATH" % name)
+else:
+	print("If you are on linux/WSL run the following")
+	print("export LD_LIBRARY_PATH=%s/lib:$LD_LIBRARY_PATH" % name)
 print()
 print("Run `make` to compile")
 print("Run ./game to execute the program")
+print("If make fails, its possible you are using the wrong architecture - run uname -m to check")
