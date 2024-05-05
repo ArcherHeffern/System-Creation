@@ -1,5 +1,6 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
+# These are special functions! They are system calls!	
 from os import fork, wait, execvp, chdir
 
 while True:
@@ -10,12 +11,13 @@ while True:
     command: str = commands[0]
 
     # Process any builtins
-    if command == 'exit':
-        exit(0)
-    if command == 'cd':
-        if len(commands) == 2:
-            chdir(commands[1])
-        continue
+	match command:
+		case 'exit':
+			exit(0)
+		case 'cd':
+			if len(commands) == 2:
+				chdir(commands[1])
+			continue
 
     # If no builtins, execute command in a new process
     if fork() == 0:
